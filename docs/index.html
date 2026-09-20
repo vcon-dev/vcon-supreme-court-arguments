@@ -20,6 +20,33 @@ a{color:var(--accent)}ul{padding-left:1.2rem}.stat{display:inline-block;margin-r
 <p class="cue">Endpoint <code>https://mcp-scotus.vconic.com/mcp</code><br>Token <code>Bearer scotus</code></p>
 <p><span class="stat"><b>8,503</b> arguments</span><span class="stat"><b>8,600</b> hours</span><span class="stat"><b>4.5M</b> transcript segments</span></p>
 </div></div>
+<h2>What a vCon is</h2>
+<p>A vCon is one conversation as a single JSON record, the IETF's container format for recorded conversations. Every record here is one argument session. It has four parts: <code>parties</code> (who was in the room: the justices and the advocates), <code>dialog</code> (the recording itself, here a link to the Court's MP3), <code>analysis</code> (things derived from the dialog, here the transcript, one segment per speaker turn with <code>speaker</code> pointing into <code>parties</code>), and <code>attachments</code> (documents about the conversation: the case metadata with docket, question presented and outcome, plus tags and the lawful basis for holding the recording). Trimmed example:</p>
+<div class="block"><div class="bar"><span>one vCon, abridged</span></div><pre>{
+  &quot;subject&quot;: &quot;Flast v. Cohen (416) - Oral Argument - March 12, 1968&quot;,
+  &quot;parties&quot;: [
+    { &quot;name&quot;: &quot;Earl Warren&quot;, &quot;role&quot;: &quot;justice&quot; },
+    { &quot;name&quot;: &quot;Leo Pfeffer&quot;, &quot;role&quot;: &quot;advocate&quot; }
+  ],
+  &quot;dialog&quot;: [
+    { &quot;type&quot;: &quot;recording&quot;, &quot;start&quot;: &quot;1968-03-12&quot;, &quot;duration&quot;: 7153,
+      &quot;url&quot;: &quot;https://...19680312a_416.delivery.mp3&quot; }
+  ],
+  &quot;analysis&quot;: [
+    { &quot;type&quot;: &quot;wtf_transcription&quot;, &quot;dialog&quot;: 0, &quot;vendor&quot;: &quot;oyez&quot;,
+      &quot;body&quot;: { &quot;segments&quot;: [
+        { &quot;start&quot;: 0.0, &quot;end&quot;: 29.0, &quot;speaker&quot;: 0, &quot;text&quot;: &quot;Number 416, Florence Flast...&quot; },
+        { &quot;start&quot;: 31.2, &quot;end&quot;: 35.2, &quot;speaker&quot;: 1, &quot;text&quot;: &quot;Mr. Chief Justice and may it please the Court.&quot; }
+      ] } }
+  ],
+  &quot;attachments&quot;: [
+    { &quot;purpose&quot;: &quot;case_metadata&quot;, &quot;body&quot;: { &quot;docket_number&quot;: &quot;416&quot;, &quot;term&quot;: 1967,
+      &quot;question&quot;: &quot;Did Flast, as a taxpayer, have standing...&quot;, &quot;conclusion&quot;: &quot;8-to-1 ...&quot; } },
+    { &quot;purpose&quot;: &quot;lawful_basis&quot;, &quot;body&quot;: { &quot;lawful_basis&quot;: &quot;legitimate_interests&quot; } }
+  ]
+}</pre></div>
+<p>So "search the transcripts" means the <code>analysis</code> bodies, "who argued" means <code>parties</code>, and "what was the case about" means the <code>case_metadata</code> attachment.</p>
+
 <h2>Claude Code, one line</h2>
 <div class="block"><div class="bar"><span>terminal</span><button data-copy="claude_code">Copy</button></div><pre id="claude_code">claude mcp add --transport http vcon-scotus https://mcp-scotus.vconic.com/mcp --header &quot;Authorization: Bearer scotus&quot;</pre></div>
 <h2>Cursor, Windsurf, Cline, any client that sends headers</h2>

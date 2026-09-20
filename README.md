@@ -8,6 +8,21 @@ Source is the [Oyez API](https://api.oyez.org): the Court's own argument audio
 (MP3) plus speaker-attributed, timestamped transcripts. Where Oyez has audio but
 no transcript (196 recordings), the MP3 was transcribed locally with mlx-whisper.
 
+## What a vCon is
+
+A vCon is one conversation as a single JSON record, the IETF container format for
+recorded conversations. Each record here is one argument session, with four parts:
+
+- `parties`: who was in the room, the justices (`role: justice`) and advocates (`role: advocate`).
+- `dialog`: the recording, here an external link to the Court's MP3.
+- `analysis`: things derived from the dialog, here the transcript as `wtf_transcription`,
+  one segment per speaker turn with `speaker` pointing into `parties`.
+- `attachments`: documents about the conversation, here `case_metadata` (docket, question
+  presented, outcome), `tags`, and the `lawful_basis` for holding the recording.
+
+So "search the transcripts" means the analysis bodies, "who argued" means parties, and
+"what was the case about" means the `case_metadata` attachment.
+
 ## The corpus
 
 | | |
