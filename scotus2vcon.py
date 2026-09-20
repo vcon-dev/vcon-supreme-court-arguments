@@ -160,8 +160,9 @@ def transcribe_local(audio_path: Path, model: str) -> tuple[list[dict], str, flo
     segments = []
     for i, seg in enumerate(result.get("segments", [])):
         conf = 0.95
-        if seg.get("avg_logprob") is not None:
-            conf = min(math.exp(seg["avg_logprob"]), 1.0)
+        lp = seg.get("avg_logprob")
+        if lp is not None and not math.isnan(lp):  # NaN would serialize as invalid JSON
+            conf = min(math.exp(lp), 1.0)
         segments.append({
             "id": i,
             "start": round(seg["start"], 3),

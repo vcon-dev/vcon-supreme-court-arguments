@@ -45,6 +45,52 @@ Follows draft-ietf-vcon-vcon-core-02 with the same conventions as
 [ietf2vcon](https://github.com/vcon-dev/ietf2vcon) and its corpus
 [ietf-meeting-vcons](https://github.com/vcon-dev/ietf-meeting-vcons).
 
+## Hosted interface
+
+The corpus is also served live by a [vcon-mcp](https://github.com/vcon-dev/vcon-mcp)
+instance, the same shape as the hosted IETF dataset:
+
+**Base URL:** `https://mcp-scotus.demos.strolid.net`
+
+You need a read-only bearer token, which is free; ask the maintainers. Health takes no token:
+
+```bash
+curl -s https://mcp-scotus.demos.strolid.net/api/v1/health
+```
+
+Point any MCP client that speaks Streamable HTTP at it:
+
+```json
+{
+  "mcpServers": {
+    "vcon-scotus": {
+      "type": "http",
+      "url": "https://mcp-scotus.demos.strolid.net/mcp",
+      "headers": { "Authorization": "Bearer <your token>" }
+    }
+  }
+}
+```
+
+Every tool is also a plain REST endpoint. Keyword search covers subjects, party
+names, and the full transcript text; semantic search covers the subject line
+(case name, docket, argument date):
+
+```bash
+export VCON_URL=https://mcp-scotus.demos.strolid.net
+export VCON_TOKEN=<your token>
+curl -s -H "Authorization: Bearer $VCON_TOKEN" --get \
+  --data-urlencode "q=taxpayer standing" --data "limit=5" \
+  "$VCON_URL/api/v1/vcons/search/content"
+curl -s -H "Authorization: Bearer $VCON_TOKEN" "$VCON_URL/api/v1/vcons/<uuid>"
+curl -s -H "Authorization: Bearer $VCON_TOKEN" "$VCON_URL/api/v1/analytics"
+```
+
+The deployment recipe is in
+[vconic-datasets](https://github.com/VCONIC/vconic-datasets): `docs/INSTALL.md`
+for the procedure and `deploy/app.scotus.yaml` for the app spec. Reloading after
+a corpus refresh is `vcon-data deploy github.com/vcon-dev/vcon-supreme-court-arguments --to scotus`.
+
 ## Rebuilding or refreshing
 
 ```bash
