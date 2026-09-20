@@ -50,9 +50,17 @@ Follows draft-ietf-vcon-vcon-core-02 with the same conventions as
 The corpus is also served live by a [vcon-mcp](https://github.com/vcon-dev/vcon-mcp)
 instance, the same shape as the hosted IETF dataset:
 
+**Landing page with copy-ready configs and a QR code:** https://scotus.demos.strolid.net
+
 **Base URL:** `https://mcp-scotus.demos.strolid.net`
 
-A public read-only bearer token is published here for anyone to use. It can read and search; a write attempt gets `403`. Health takes no token:
+Two public read-only bearer tokens work; use whichever is easier. The short one is for slides and typing:
+
+```
+scotus
+```
+
+The long one is the same token the MCP config below carries. Either can read and search; a write attempt gets `403`. Health takes no token:
 
 ```
 vcon_ro_ab09742cbbe62c235b95def720b0e7b848e87cbd2db4abf5
@@ -63,7 +71,13 @@ vcon_ro_ab09742cbbe62c235b95def720b0e7b848e87cbd2db4abf5
 curl -s https://mcp-scotus.demos.strolid.net/api/v1/health
 ```
 
-Point any MCP client that speaks Streamable HTTP at it:
+Claude Code, one line:
+
+```bash
+claude mcp add --transport http vcon-scotus https://mcp-scotus.demos.strolid.net/mcp --header "Authorization: Bearer scotus"
+```
+
+Any MCP client that speaks Streamable HTTP with headers:
 
 ```json
 {
@@ -76,6 +90,8 @@ Point any MCP client that speaks Streamable HTTP at it:
   }
 }
 ```
+
+claude.ai and ChatGPT custom connectors cannot send headers. For them a token-free, read-only mirror of the same data runs at `https://mcp-scotus-open.demos.strolid.net/mcp`: add it as a custom connector with no authentication.
 
 Every tool is also a plain REST endpoint. Keyword search covers subjects, party
 names, and the full transcript text; semantic search covers the subject line
