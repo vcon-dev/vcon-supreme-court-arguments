@@ -52,7 +52,12 @@ instance, the same shape as the hosted IETF dataset:
 
 **Base URL:** `https://mcp-scotus.demos.strolid.net`
 
-You need a read-only bearer token, which is free; ask the maintainers. Health takes no token:
+A public read-only bearer token is published here for anyone to use. It can read and search; a write attempt gets `403`. Health takes no token:
+
+```
+vcon_ro_ab09742cbbe62c235b95def720b0e7b848e87cbd2db4abf5
+```
+
 
 ```bash
 curl -s https://mcp-scotus.demos.strolid.net/api/v1/health
@@ -66,7 +71,7 @@ Point any MCP client that speaks Streamable HTTP at it:
     "vcon-scotus": {
       "type": "http",
       "url": "https://mcp-scotus.demos.strolid.net/mcp",
-      "headers": { "Authorization": "Bearer <your token>" }
+      "headers": { "Authorization": "Bearer vcon_ro_ab09742cbbe62c235b95def720b0e7b848e87cbd2db4abf5" }
     }
   }
 }
@@ -78,7 +83,7 @@ names, and the full transcript text; semantic search covers the subject line
 
 ```bash
 export VCON_URL=https://mcp-scotus.demos.strolid.net
-export VCON_TOKEN=<your token>
+export VCON_TOKEN=vcon_ro_ab09742cbbe62c235b95def720b0e7b848e87cbd2db4abf5
 curl -s -H "Authorization: Bearer $VCON_TOKEN" --get \
   --data-urlencode "q=taxpayer standing" --data "limit=5" \
   "$VCON_URL/api/v1/vcons/search/content"
