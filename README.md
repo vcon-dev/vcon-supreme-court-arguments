@@ -50,9 +50,9 @@ Follows draft-ietf-vcon-vcon-core-02 with the same conventions as
 The corpus is also served live by a [vcon-mcp](https://github.com/vcon-dev/vcon-mcp)
 instance, the same shape as the hosted IETF dataset:
 
-**Landing page with copy-ready configs and a QR code:** https://scotus.demos.strolid.net
+**Landing page with copy-ready configs and a QR code:** https://scotus.vconic.com
 
-**Base URL:** `https://mcp-scotus.demos.strolid.net`
+**Base URL:** `https://mcp-scotus.vconic.com`
 
 Two public read-only bearer tokens work; use whichever is easier. The short one is for slides and typing:
 
@@ -68,13 +68,13 @@ vcon_ro_ab09742cbbe62c235b95def720b0e7b848e87cbd2db4abf5
 
 
 ```bash
-curl -s https://mcp-scotus.demos.strolid.net/api/v1/health
+curl -s https://mcp-scotus.vconic.com/api/v1/health
 ```
 
 Claude Code, one line:
 
 ```bash
-claude mcp add --transport http vcon-scotus https://mcp-scotus.demos.strolid.net/mcp --header "Authorization: Bearer scotus"
+claude mcp add --transport http vcon-scotus https://mcp-scotus.vconic.com/mcp --header "Authorization: Bearer scotus"
 ```
 
 Any MCP client that speaks Streamable HTTP with headers:
@@ -84,21 +84,21 @@ Any MCP client that speaks Streamable HTTP with headers:
   "mcpServers": {
     "vcon-scotus": {
       "type": "http",
-      "url": "https://mcp-scotus.demos.strolid.net/mcp",
+      "url": "https://mcp-scotus.vconic.com/mcp",
       "headers": { "Authorization": "Bearer vcon_ro_ab09742cbbe62c235b95def720b0e7b848e87cbd2db4abf5" }
     }
   }
 }
 ```
 
-claude.ai and ChatGPT custom connectors cannot send headers. For them a token-free, read-only mirror of the same data runs at `https://mcp-scotus-open.demos.strolid.net/mcp`: add it as a custom connector with no authentication.
+claude.ai and ChatGPT custom connectors cannot send headers. For them a token-free, read-only mirror of the same data runs at `https://mcp-scotus-open.vconic.com/mcp`: add it as a custom connector with no authentication.
 
 Every tool is also a plain REST endpoint. Keyword search covers subjects, party
 names, and the full transcript text; semantic search covers the subject line
 (case name, docket, argument date):
 
 ```bash
-export VCON_URL=https://mcp-scotus.demos.strolid.net
+export VCON_URL=https://mcp-scotus.vconic.com
 export VCON_TOKEN=vcon_ro_ab09742cbbe62c235b95def720b0e7b848e87cbd2db4abf5
 curl -s -H "Authorization: Bearer $VCON_TOKEN" --get \
   --data-urlencode "q=taxpayer standing" --data "limit=5" \
