@@ -1,1 +1,179 @@
-{"vcon": "0.4.0", "uuid": "01a0bd3e-2f67-88d9-9dd8-dd37220d739c", "parties": [{"name": "Warren E. Burger", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/warren_e_burger", "title": "Chief Justice of the United States"}}, {"name": "William J. Brennan, Jr.", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_j_brennan_jr", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Potter Stewart", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/potter_stewart", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Byron R. White", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/byron_r_white", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Thurgood Marshall", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/thurgood_marshall", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Harry A. Blackmun", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/harry_a_blackmun", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Lewis F. Powell, Jr.", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/lewis_f_powell_jr", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William H. Rehnquist", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_h_rehnquist", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "John Paul Stevens", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/john_paul_stevens", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Howard J. Trienens", "role": "advocate", "meta": {"oyez": "https://api.oyez.org/people/howard_j_trienens", "description": "on behalf of the Petitioner"}}, {"name": "Richard S. Fleisher", "role": "advocate", "meta": {"oyez": "https://api.oyez.org/people/richard_s_fleisher", "description": "on behalf of the Respondent"}}], "dialog": [{"type": "recording", "start": "1979-11-05T00:00:00+00:00", "parties": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "mediatype": "audio/mpeg", "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1979/78-1323/19791105a_78-1323_part1.delivery.mp3", "duration": 212.166, "meta": {"oyez_media_id": 17805, "source": "oyez", "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"}, "metadata": {"oyez_media_id": 17805, "source": "oyez"}}], "attachments": [{"purpose": "case_metadata", "body": "{\"docket_number\": \"78-1323\", \"additional_docket_numbers\": null, \"term\": \"1979\", \"first_party\": \"Norfolk & Western Railway Company\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Liepelt\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"State appellate court\", \"argued\": [\"1979-11-05T06:00:00Z\"], \"question\": \"\", \"facts_of_the_case\": \"\", \"conclusion\": \"\", \"citation\": {\"volume\": \"444\", \"page\": \"490\", \"year\": \"1980\", \"href\": \"https://api.oyez.org/case_citation/case_citation/15990\"}, \"oyez_url\": \"https://api.oyez.org/cases/1979/78-1323\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/444/490/\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-20T05:16:04.327604+00:00"}, {"purpose": "tags", "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1979\", \"docket\": \"78-1323\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-20T05:16:04.327604+00:00"}, {"purpose": "lawful_basis", "encoding": "json", "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-20T05:16:04.330723+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-20T05:16:04.330723+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-20T05:16:04.330723+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-20T05:16:04.330723+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-20T05:16:04.330723+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}", "party": 0, "dialog": 0, "start": "2026-09-20T05:16:04.327604+00:00"}, {"purpose": "ingress_info", "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-20T05:16:04.330723+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1979/78-1323\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/17805\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-20T05:16:04.327604+00:00"}], "analysis": [{"type": "wtf_transcription", "dialog": 0, "vendor": "oyez", "body": "{\"transcript\": {\"text\": \"We will hear arguments next in 78-1323, Norfolk and Western Railway against Liepelt. Mr. Trienens, we will let you get started. Thank you Mr. Chief Justice, and may it please the Court. There are two questions here. In both respects, the Illinois Courts have a rigid, unwaivering rule which forbids a jury being informed of two Federal tax consequences, income tax consequences, that profoundly affect the amount of awards in FELA cases. One of them is whether the amount of the tax that a decedent would have paid on his income may be considered in deciding how much the beneficiary -- how much contribution the beneficiary has lost. And the second is to inform this jury of the tax-free character of the award, however measured. Now, the point of FELA is not to punish rareties. It is to be sure that beneficiaries get damages measured by their financial loss, and for that only. The FELA cases can be tried in state or federal courts, but the proper measure of damages, to quote from an early decision in Chesapeake & Ohio v. Kelly, \\\"proper measure of damages is inseparably connected to the right of action, and therefore must be settled according to uniform standards under the FELA.\\\" If the instruction you requested had been given, would you be here -- and the same verdict had come in? As to that issue on the instruction, the answer is we would not be here for failure to give the instruction. It might well have been that the state court would have granted a remittitur in this case, but no, we wouldn't have been here if the instruction had been given on that aspect. The other aspect is income tax effect on the amount of contribution. That's a separate question. I mean a combination of the tax instruction, in other words. If that had been given, you indicate you would not be here. We wouldn't be here on that issue, but we would still be here on the issue we briefed first, which is the question of whether in measuring the damages actually incurred by the beneficiaries they should have reflected the fact that the amount the decedent paid in taxes would never have been available to the beneficiary. And that's a quite different question. I didn't make my question clear. I meant the whole tax aspect. If you had gotten the instruction you wanted on both aspects of the tax problem, and had the same verdict, then all you would have left was a claim of an excessive verdict, wouldn't you? Yes, sir, but perhaps the reason I fell off the sled was this. It is more than the instruction on this question of the taxation of the decedent and how much would have been available for contribution, because that was a question of no evidence, no cross-examination, a lot of other things. We will resume there at 1:00 o'clock.\", \"language\": \"en\", \"duration\": 212.166, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 50.469, \"text\": \"We will hear arguments next in 78-1323, Norfolk and Western Railway against Liepelt.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 50.469, \"end\": 54.148, \"text\": \"Mr. Trienens, we will let you get started.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 2, \"start\": 54.148, \"end\": 57.711, \"text\": \"Thank you Mr. Chief Justice, and may it please the Court.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 57.711, \"end\": 59.832, \"text\": \"There are two questions here.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 59.832, \"end\": 75.906, \"text\": \"In both respects, the Illinois Courts have a rigid, unwaivering rule which forbids a jury being informed of two Federal tax consequences, income tax consequences, that profoundly affect the amount of awards in FELA cases.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 75.906, \"end\": 87.89, \"text\": \"One of them is whether the amount of the tax that a decedent would have paid on his income may be considered in deciding how much the beneficiary -- how much contribution the beneficiary has lost.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 87.89, \"end\": 94.325, \"text\": \"And the second is to inform this jury of the tax-free character of the award, however measured.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 94.325, \"end\": 97.954, \"text\": \"Now, the point of FELA is not to punish rareties.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 97.954, \"end\": 108.229, \"text\": \"It is to be sure that beneficiaries get damages measured by their financial loss, and for that only.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 108.229, \"end\": 128.774, \"text\": \"The FELA cases can be tried in state or federal courts, but the proper measure of damages, to quote from an early decision in Chesapeake & Ohio v. Kelly, \\\"proper measure of damages is inseparably connected to the right of action, and therefore must be settled according to uniform standards under the FELA.\\\"\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 128.774, \"end\": 138.892, \"text\": \"If the instruction you requested had been given, would you be here -- and the same verdict had come in?\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 11, \"start\": 138.892, \"end\": 144.364, \"text\": \"As to that issue on the instruction, the answer is we would not be here for failure to give the instruction.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 144.364, \"end\": 151.96, \"text\": \"It might well have been that the state court would have granted a remittitur in this case, but no, we wouldn't have been here if the instruction had been given on that aspect.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 151.96, \"end\": 156.078, \"text\": \"The other aspect is income tax effect on the amount of contribution.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 156.078, \"end\": 156.894, \"text\": \"That's a separate question.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 156.894, \"end\": 160.785, \"text\": \"I mean a combination of the tax instruction, in other words.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 16, \"start\": 160.785, \"end\": 163.792, \"text\": \"If that had been given, you indicate you would not be here.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 17, \"start\": 163.792, \"end\": 179.02, \"text\": \"We wouldn't be here on that issue, but we would still be here on the issue we briefed first, which is the question of whether in measuring the damages actually incurred by the beneficiaries they should have reflected the fact that the amount the decedent paid in taxes would never have been available to the beneficiary.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 18, \"start\": 179.02, \"end\": 180.057, \"text\": \"And that's a quite different question.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 19, \"start\": 180.057, \"end\": 181.467, \"text\": \"I didn't make my question clear.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 20, \"start\": 181.467, \"end\": 182.763, \"text\": \"I meant the whole tax aspect.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 21, \"start\": 182.763, \"end\": 192.73, \"text\": \"If you had gotten the instruction you wanted on both aspects of the tax problem, and had the same verdict, then all you would have left was a claim of an excessive verdict, wouldn't you?\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 22, \"start\": 192.73, \"end\": 197.616, \"text\": \"Yes, sir, but perhaps the reason I fell off the sled was this.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 23, \"start\": 197.616, \"end\": 207.535, \"text\": \"It is more than the instruction on this question of the taxation of the decedent and how much would have been available for contribution, because that was a question of no evidence, no cross-examination, a lot of other things.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 24, \"start\": 207.535, \"end\": 212.166, \"text\": \"We will resume there at 1:00 o'clock.\", \"confidence\": 1.0, \"speaker\": 0}], \"metadata\": {\"created_at\": \"2026-09-20T05:16:04.330723+00:00\", \"processed_at\": \"2026-09-20T05:16:04.330723+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 25, \"speakers\": {\"0\": \"Warren E. Burger\", \"1\": \"William J. Brennan, Jr.\", \"2\": \"Potter Stewart\", \"3\": \"Byron R. White\", \"4\": \"Thurgood Marshall\", \"5\": \"Harry A. Blackmun\", \"6\": \"Lewis F. Powell, Jr.\", \"7\": \"William H. Rehnquist\", \"8\": \"John Paul Stevens\", \"9\": \"Howard J. Trienens\", \"10\": \"Richard S. Fleisher\"}}}", "encoding": "json", "product": "court-transcript"}], "created_at": "2026-09-20T05:16:04.327604+00:00", "extensions": ["role", "meta", "wtf_transcription", "lawful_basis"], "subject": "Norfolk & Western Railway Company v. Liepelt (78-1323) - Oral Argument - November 05, 1979 (Part 1)", "updated_at": "2026-09-20T05:16:04.330723+00:00"}
+{
+  "vcon": "0.4.0",
+  "uuid": "01a0bd3e-2f67-88d9-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Warren E. Burger",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/warren_e_burger",
+        "title": "Chief Justice of the United States"
+      }
+    },
+    {
+      "name": "William J. Brennan, Jr.",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_j_brennan_jr",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Potter Stewart",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/potter_stewart",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Byron R. White",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/byron_r_white",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Thurgood Marshall",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/thurgood_marshall",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Harry A. Blackmun",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/harry_a_blackmun",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Lewis F. Powell, Jr.",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/lewis_f_powell_jr",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William H. Rehnquist",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_h_rehnquist",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "John Paul Stevens",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/john_paul_stevens",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Howard J. Trienens",
+      "role": "advocate",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/howard_j_trienens",
+        "description": "on behalf of the Petitioner"
+      }
+    },
+    {
+      "name": "Richard S. Fleisher",
+      "role": "advocate",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/richard_s_fleisher",
+        "description": "on behalf of the Respondent"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "1979-11-05T00:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "mediatype": "audio/mpeg",
+      "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1979/78-1323/19791105a_78-1323_part1.delivery.mp3",
+      "duration": 212.166,
+      "meta": {
+        "oyez_media_id": 17805,
+        "source": "oyez",
+        "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"
+      },
+      "metadata": {
+        "oyez_media_id": 17805,
+        "source": "oyez"
+      },
+      "content_hash": "sha512-FB7eMHnjFPR1cUjv_gfkbcKdxMx1P0i97OJoay4-PCNM1WGmKI-SxPCIJ6JissZhq3fHDdDrHmRmIskwtMtfCQ"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "case_metadata",
+      "body": "{\"docket_number\": \"78-1323\", \"additional_docket_numbers\": null, \"term\": \"1979\", \"first_party\": \"Norfolk & Western Railway Company\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Liepelt\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"State appellate court\", \"argued\": [\"1979-11-05T06:00:00Z\"], \"question\": \"\", \"facts_of_the_case\": \"\", \"conclusion\": \"\", \"citation\": {\"volume\": \"444\", \"page\": \"490\", \"year\": \"1980\", \"href\": \"https://api.oyez.org/case_citation/case_citation/15990\"}, \"oyez_url\": \"https://api.oyez.org/cases/1979/78-1323\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/444/490/\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-20T05:16:04.327604+00:00"
+    },
+    {
+      "purpose": "tags",
+      "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1979\", \"docket\": \"78-1323\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-20T05:16:04.327604+00:00"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-20T05:16:04.330723+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-20T05:16:04.330723+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-20T05:16:04.330723+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-20T05:16:04.330723+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-20T05:16:04.330723+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-20T05:16:04.327604+00:00"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-20T05:16:04.330723+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1979/78-1323\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/17805\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-20T05:16:04.327604+00:00"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "oyez",
+      "body": "{\"transcript\": {\"text\": \"We will hear arguments next in 78-1323, Norfolk and Western Railway against Liepelt. Mr. Trienens, we will let you get started. Thank you Mr. Chief Justice, and may it please the Court. There are two questions here. In both respects, the Illinois Courts have a rigid, unwaivering rule which forbids a jury being informed of two Federal tax consequences, income tax consequences, that profoundly affect the amount of awards in FELA cases. One of them is whether the amount of the tax that a decedent would have paid on his income may be considered in deciding how much the beneficiary -- how much contribution the beneficiary has lost. And the second is to inform this jury of the tax-free character of the award, however measured. Now, the point of FELA is not to punish rareties. It is to be sure that beneficiaries get damages measured by their financial loss, and for that only. The FELA cases can be tried in state or federal courts, but the proper measure of damages, to quote from an early decision in Chesapeake & Ohio v. Kelly, \\\"proper measure of damages is inseparably connected to the right of action, and therefore must be settled according to uniform standards under the FELA.\\\" If the instruction you requested had been given, would you be here -- and the same verdict had come in? As to that issue on the instruction, the answer is we would not be here for failure to give the instruction. It might well have been that the state court would have granted a remittitur in this case, but no, we wouldn't have been here if the instruction had been given on that aspect. The other aspect is income tax effect on the amount of contribution. That's a separate question. I mean a combination of the tax instruction, in other words. If that had been given, you indicate you would not be here. We wouldn't be here on that issue, but we would still be here on the issue we briefed first, which is the question of whether in measuring the damages actually incurred by the beneficiaries they should have reflected the fact that the amount the decedent paid in taxes would never have been available to the beneficiary. And that's a quite different question. I didn't make my question clear. I meant the whole tax aspect. If you had gotten the instruction you wanted on both aspects of the tax problem, and had the same verdict, then all you would have left was a claim of an excessive verdict, wouldn't you? Yes, sir, but perhaps the reason I fell off the sled was this. It is more than the instruction on this question of the taxation of the decedent and how much would have been available for contribution, because that was a question of no evidence, no cross-examination, a lot of other things. We will resume there at 1:00 o'clock.\", \"language\": \"en\", \"duration\": 212.166, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 50.469, \"text\": \"We will hear arguments next in 78-1323, Norfolk and Western Railway against Liepelt.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 50.469, \"end\": 54.148, \"text\": \"Mr. Trienens, we will let you get started.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 2, \"start\": 54.148, \"end\": 57.711, \"text\": \"Thank you Mr. Chief Justice, and may it please the Court.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 57.711, \"end\": 59.832, \"text\": \"There are two questions here.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 59.832, \"end\": 75.906, \"text\": \"In both respects, the Illinois Courts have a rigid, unwaivering rule which forbids a jury being informed of two Federal tax consequences, income tax consequences, that profoundly affect the amount of awards in FELA cases.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 75.906, \"end\": 87.89, \"text\": \"One of them is whether the amount of the tax that a decedent would have paid on his income may be considered in deciding how much the beneficiary -- how much contribution the beneficiary has lost.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 87.89, \"end\": 94.325, \"text\": \"And the second is to inform this jury of the tax-free character of the award, however measured.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 94.325, \"end\": 97.954, \"text\": \"Now, the point of FELA is not to punish rareties.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 97.954, \"end\": 108.229, \"text\": \"It is to be sure that beneficiaries get damages measured by their financial loss, and for that only.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 108.229, \"end\": 128.774, \"text\": \"The FELA cases can be tried in state or federal courts, but the proper measure of damages, to quote from an early decision in Chesapeake & Ohio v. Kelly, \\\"proper measure of damages is inseparably connected to the right of action, and therefore must be settled according to uniform standards under the FELA.\\\"\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 128.774, \"end\": 138.892, \"text\": \"If the instruction you requested had been given, would you be here -- and the same verdict had come in?\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 11, \"start\": 138.892, \"end\": 144.364, \"text\": \"As to that issue on the instruction, the answer is we would not be here for failure to give the instruction.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 144.364, \"end\": 151.96, \"text\": \"It might well have been that the state court would have granted a remittitur in this case, but no, we wouldn't have been here if the instruction had been given on that aspect.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 151.96, \"end\": 156.078, \"text\": \"The other aspect is income tax effect on the amount of contribution.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 156.078, \"end\": 156.894, \"text\": \"That's a separate question.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 156.894, \"end\": 160.785, \"text\": \"I mean a combination of the tax instruction, in other words.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 16, \"start\": 160.785, \"end\": 163.792, \"text\": \"If that had been given, you indicate you would not be here.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 17, \"start\": 163.792, \"end\": 179.02, \"text\": \"We wouldn't be here on that issue, but we would still be here on the issue we briefed first, which is the question of whether in measuring the damages actually incurred by the beneficiaries they should have reflected the fact that the amount the decedent paid in taxes would never have been available to the beneficiary.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 18, \"start\": 179.02, \"end\": 180.057, \"text\": \"And that's a quite different question.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 19, \"start\": 180.057, \"end\": 181.467, \"text\": \"I didn't make my question clear.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 20, \"start\": 181.467, \"end\": 182.763, \"text\": \"I meant the whole tax aspect.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 21, \"start\": 182.763, \"end\": 192.73, \"text\": \"If you had gotten the instruction you wanted on both aspects of the tax problem, and had the same verdict, then all you would have left was a claim of an excessive verdict, wouldn't you?\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 22, \"start\": 192.73, \"end\": 197.616, \"text\": \"Yes, sir, but perhaps the reason I fell off the sled was this.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 23, \"start\": 197.616, \"end\": 207.535, \"text\": \"It is more than the instruction on this question of the taxation of the decedent and how much would have been available for contribution, because that was a question of no evidence, no cross-examination, a lot of other things.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 24, \"start\": 207.535, \"end\": 212.166, \"text\": \"We will resume there at 1:00 o'clock.\", \"confidence\": 1.0, \"speaker\": 0}], \"metadata\": {\"created_at\": \"2026-09-20T05:16:04.330723+00:00\", \"processed_at\": \"2026-09-20T05:16:04.330723+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 25, \"speakers\": {\"0\": \"Warren E. Burger\", \"1\": \"William J. Brennan, Jr.\", \"2\": \"Potter Stewart\", \"3\": \"Byron R. White\", \"4\": \"Thurgood Marshall\", \"5\": \"Harry A. Blackmun\", \"6\": \"Lewis F. Powell, Jr.\", \"7\": \"William H. Rehnquist\", \"8\": \"John Paul Stevens\", \"9\": \"Howard J. Trienens\", \"10\": \"Richard S. Fleisher\"}}}",
+      "encoding": "json",
+      "product": "court-transcript"
+    }
+  ],
+  "created_at": "2026-09-20T05:16:04.327604+00:00",
+  "extensions": [
+    "role",
+    "meta",
+    "wtf_transcription",
+    "lawful_basis"
+  ],
+  "subject": "Norfolk & Western Railway Company v. Liepelt (78-1323) - Oral Argument - November 05, 1979 (Part 1)",
+  "updated_at": "2026-09-20T05:16:04.330723+00:00"
+}

@@ -1,1 +1,169 @@
-{"vcon": "0.4.0", "uuid": "01a0bbfb-6410-8b95-9dd8-dd37220d739c", "parties": [{"name": "Earl Warren", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/earl_warren", "title": "Chief Justice of the United States"}}, {"name": "Hugo L. Black", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/hugo_l_black", "title": "Associate Justice"}}, {"name": "Felix Frankfurter", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/felix_frankfurter", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William O. Douglas", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_o_douglas", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Tom C. Clark", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/tom_c_clark", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "John M. Harlan II", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/john_m_harlan2", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William J. Brennan, Jr.", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_j_brennan_jr", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Charles E. Whittaker", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/charles_e_whittaker", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Potter Stewart", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/potter_stewart", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "John F . Davis", "role": "speaker", "meta": {"oyez": "https://api.oyez.org/people/john_f_davis"}}], "dialog": [{"type": "recording", "start": "1961-04-27T00:00:00+00:00", "parties": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "mediatype": "audio/mpeg", "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1960/492/19610427a_492_part1.delivery.mp3", "duration": 238.633, "meta": {"oyez_media_id": 14651, "source": "oyez", "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"}, "metadata": {"oyez_media_id": 14651, "source": "oyez"}}], "attachments": [{"purpose": "case_metadata", "body": "{\"docket_number\": \"492\", \"additional_docket_numbers\": null, \"term\": \"1960\", \"first_party\": \"Civil Aeronautics Board\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Delta Air Lines, Inc.\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"United States Court of Appeals for the Second Circuit\", \"argued\": [\"1961-04-27T06:00:00Z\"], \"question\": \"\", \"facts_of_the_case\": \"\", \"conclusion\": \"\", \"citation\": {\"volume\": \"367\", \"page\": \"316\", \"year\": \"1961\", \"href\": \"https://api.oyez.org/case_citation/case_citation/24924\"}, \"oyez_url\": \"https://api.oyez.org/cases/1960/492\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/367/316/\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:23:29.680762+00:00"}, {"purpose": "tags", "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1960\", \"docket\": \"492\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:23:29.680762+00:00"}, {"purpose": "lawful_basis", "encoding": "json", "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:29.682603+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:29.682603+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:29.682603+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:29.682603+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:29.682603+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}", "party": 0, "dialog": 0, "start": "2026-09-19T23:23:29.680762+00:00"}, {"purpose": "ingress_info", "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-19T23:23:29.682603+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1960/492\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/14651\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:23:29.680762+00:00"}], "analysis": [{"type": "wtf_transcription", "dialog": 0, "vendor": "oyez", "body": "{\"transcript\": {\"text\": \"Number 492, Civil Aeronautics Board, Petitioner, versus Delta Air Lines, Incorporated, and Number 493, Lake Central Airlines, Incorporated, Petitioner versus Delta Air Lines. Mr. Davis. Mr. Chief Justice, if the Court please. This case arises on petition for certiorari to the Court of Appeals for the Second Circuit. That Court upheld and attacked by Delta Air Lines upon an order of the Civil Aeronautics Board which had ordered modifications in a certificate of public convenience and necessity which had been granted for some new routes. A competing airline of -- of Delta, Lake Central, had intervened in the court proceeding to review the order. And both Lake Central and the Civil Aeronautics Board filed petitions for certiorari to review what it claimed as an error, of course, involves. Both petitions were granted and by stipulation, they have been consolidated for argument here. I shall make the opening argument for the Civil Aeronautics Board, then the petitioner, Lake Central, will follow me.Delta will respond to both of us at one time and if there is time, and I think there will be, I shall rebut. Now, the only issue here is whether the Civil Aeronautics Board, in order to preserve its jurisdiction to consider motions for reconsideration, must postpone the effectiveness of a certificate for public convenience and necessity or whether it may permit that certificate to become effective and then on completion of its consideration, make a modification of the effective certificate. This is purely a matter of administrative procedure of statutory construction. There's no question here of constitutionality. There's no question here of evidences, merely a question as to whether or not the Civil Aeronautics Board has power to modify an effective certificate of convenience and -- and necessity when that certificate was granted during the pendency of motions for reconsideration. Now, here, the dispute is between the -- the Delta Air Lines, which is a trunk carrier, and two local lines, the Piedmont and the petitioner, the Lake Central, both of which operated local services in the neighborhood of the -- of the Great Lakes. This case is really a small segment of a large multi-party proceeding in which the commission the -- the Civil Aeronautics Board considered the necessities of additional routes to serve the area between the Great Lakes and Florida. Delta had applied for and had been granted permission for a new route between Detroit and Miami, Florida. And at the same time, it has been granted permission to serve several new intermediate routes on its existing route between Chicago and Miami. These intermediate points which were added to its authority included Indianapolis and Louisville and Dayton among others. We'll recess now.\", \"language\": \"en\", \"duration\": 238.633, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 15.539, \"text\": \"Number 492, Civil Aeronautics Board, Petitioner, versus Delta Air Lines, Incorporated, and Number 493, Lake Central Airlines, Incorporated, Petitioner versus Delta Air Lines.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 15.539, \"end\": 19.32, \"text\": \"Mr. Davis.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 2, \"start\": 19.32, \"end\": 23.443, \"text\": \"Mr. Chief Justice, if the Court please.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 23.443, \"end\": 30.044, \"text\": \"This case arises on petition for certiorari to the Court of Appeals for the Second Circuit.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 30.044, \"end\": 49.489, \"text\": \"That Court upheld and attacked by Delta Air Lines upon an order of the Civil Aeronautics Board which had ordered modifications in a certificate of public convenience and necessity which had been granted for some new routes.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 49.489, \"end\": 60.061, \"text\": \"A competing airline of -- of Delta, Lake Central, had intervened in the court proceeding to review the order.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 60.061, \"end\": 72.743, \"text\": \"And both Lake Central and the Civil Aeronautics Board filed petitions for certiorari to review what it claimed as an error, of course, involves.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 72.743, \"end\": 78.975, \"text\": \"Both petitions were granted and by stipulation, they have been consolidated for argument here.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 78.975, \"end\": 97.402, \"text\": \"I shall make the opening argument for the Civil Aeronautics Board, then the petitioner, Lake Central, will follow me.Delta will respond to both of us at one time and if there is time, and I think there will be, I shall rebut.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 97.402, \"end\": 130.315, \"text\": \"Now, the only issue here is whether the Civil Aeronautics Board, in order to preserve its jurisdiction to consider motions for reconsideration, must postpone the effectiveness of a certificate for public convenience and necessity or whether it may permit that certificate to become effective and then on completion of its consideration, make a modification of the effective certificate.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 130.315, \"end\": 135.654, \"text\": \"This is purely a matter of administrative procedure of statutory construction.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 11, \"start\": 135.654, \"end\": 139.798, \"text\": \"There's no question here of constitutionality.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 139.798, \"end\": 163.762, \"text\": \"There's no question here of evidences, merely a question as to whether or not the Civil Aeronautics Board has power to modify an effective certificate of convenience and -- and necessity when that certificate was granted during the pendency of motions for reconsideration.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 163.762, \"end\": 182.934, \"text\": \"Now, here, the dispute is between the -- the Delta Air Lines, which is a trunk carrier, and two local lines, the Piedmont and the petitioner, the Lake Central, both of which operated local services in the neighborhood of the -- of the Great Lakes.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 182.934, \"end\": 204.503, \"text\": \"This case is really a small segment of a large multi-party proceeding in which the commission the -- the Civil Aeronautics Board considered the necessities of additional routes to serve the area between the Great Lakes and Florida.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 204.503, \"end\": 214.186, \"text\": \"Delta had applied for and had been granted permission for a new route between Detroit and Miami, Florida.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 16, \"start\": 214.186, \"end\": 226.076, \"text\": \"And at the same time, it has been granted permission to serve several new intermediate routes on its existing route between Chicago and Miami.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 17, \"start\": 226.076, \"end\": 236.691, \"text\": \"These intermediate points which were added to its authority included Indianapolis and Louisville and Dayton among others.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 18, \"start\": 236.691, \"end\": 238.633, \"text\": \"We'll recess now.\", \"confidence\": 1.0, \"speaker\": 0}], \"metadata\": {\"created_at\": \"2026-09-19T23:23:29.682603+00:00\", \"processed_at\": \"2026-09-19T23:23:29.682603+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 19, \"speakers\": {\"0\": \"Earl Warren\", \"1\": \"Hugo L. Black\", \"2\": \"Felix Frankfurter\", \"3\": \"William O. Douglas\", \"4\": \"Tom C. Clark\", \"5\": \"John M. Harlan II\", \"6\": \"William J. Brennan, Jr.\", \"7\": \"Charles E. Whittaker\", \"8\": \"Potter Stewart\", \"9\": \"John F . Davis\"}}}", "encoding": "json", "product": "court-transcript"}], "created_at": "2026-09-19T23:23:29.680762+00:00", "extensions": ["role", "meta", "wtf_transcription", "lawful_basis"], "subject": "Civil Aeronautics Board v. Delta Air Lines, Inc. (492) - Oral Argument - April 27, 1961 (Part 1)", "updated_at": "2026-09-19T23:23:29.682603+00:00"}
+{
+  "vcon": "0.4.0",
+  "uuid": "01a0bbfb-6410-8b95-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Earl Warren",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/earl_warren",
+        "title": "Chief Justice of the United States"
+      }
+    },
+    {
+      "name": "Hugo L. Black",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/hugo_l_black",
+        "title": "Associate Justice"
+      }
+    },
+    {
+      "name": "Felix Frankfurter",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/felix_frankfurter",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William O. Douglas",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_o_douglas",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Tom C. Clark",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/tom_c_clark",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "John M. Harlan II",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/john_m_harlan2",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William J. Brennan, Jr.",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_j_brennan_jr",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Charles E. Whittaker",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/charles_e_whittaker",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Potter Stewart",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/potter_stewart",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "John F . Davis",
+      "role": "speaker",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/john_f_davis"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "1961-04-27T00:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mediatype": "audio/mpeg",
+      "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1960/492/19610427a_492_part1.delivery.mp3",
+      "duration": 238.633,
+      "meta": {
+        "oyez_media_id": 14651,
+        "source": "oyez",
+        "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"
+      },
+      "metadata": {
+        "oyez_media_id": 14651,
+        "source": "oyez"
+      },
+      "content_hash": "sha512-h11bYE9Ya6KdKI4_FCwB2OsAwpOIjZIAJuO3sfhJojuW-vwmq2uE8Qu0yNcHFbSd0OBfJRepUA6ZrWsPBJR4-Q"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "case_metadata",
+      "body": "{\"docket_number\": \"492\", \"additional_docket_numbers\": null, \"term\": \"1960\", \"first_party\": \"Civil Aeronautics Board\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Delta Air Lines, Inc.\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"United States Court of Appeals for the Second Circuit\", \"argued\": [\"1961-04-27T06:00:00Z\"], \"question\": \"\", \"facts_of_the_case\": \"\", \"conclusion\": \"\", \"citation\": {\"volume\": \"367\", \"page\": \"316\", \"year\": \"1961\", \"href\": \"https://api.oyez.org/case_citation/case_citation/24924\"}, \"oyez_url\": \"https://api.oyez.org/cases/1960/492\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/367/316/\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:23:29.680762+00:00"
+    },
+    {
+      "purpose": "tags",
+      "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1960\", \"docket\": \"492\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:23:29.680762+00:00"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:29.682603+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:29.682603+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:29.682603+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:29.682603+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:29.682603+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:23:29.680762+00:00"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-19T23:23:29.682603+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1960/492\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/14651\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:23:29.680762+00:00"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "oyez",
+      "body": "{\"transcript\": {\"text\": \"Number 492, Civil Aeronautics Board, Petitioner, versus Delta Air Lines, Incorporated, and Number 493, Lake Central Airlines, Incorporated, Petitioner versus Delta Air Lines. Mr. Davis. Mr. Chief Justice, if the Court please. This case arises on petition for certiorari to the Court of Appeals for the Second Circuit. That Court upheld and attacked by Delta Air Lines upon an order of the Civil Aeronautics Board which had ordered modifications in a certificate of public convenience and necessity which had been granted for some new routes. A competing airline of -- of Delta, Lake Central, had intervened in the court proceeding to review the order. And both Lake Central and the Civil Aeronautics Board filed petitions for certiorari to review what it claimed as an error, of course, involves. Both petitions were granted and by stipulation, they have been consolidated for argument here. I shall make the opening argument for the Civil Aeronautics Board, then the petitioner, Lake Central, will follow me.Delta will respond to both of us at one time and if there is time, and I think there will be, I shall rebut. Now, the only issue here is whether the Civil Aeronautics Board, in order to preserve its jurisdiction to consider motions for reconsideration, must postpone the effectiveness of a certificate for public convenience and necessity or whether it may permit that certificate to become effective and then on completion of its consideration, make a modification of the effective certificate. This is purely a matter of administrative procedure of statutory construction. There's no question here of constitutionality. There's no question here of evidences, merely a question as to whether or not the Civil Aeronautics Board has power to modify an effective certificate of convenience and -- and necessity when that certificate was granted during the pendency of motions for reconsideration. Now, here, the dispute is between the -- the Delta Air Lines, which is a trunk carrier, and two local lines, the Piedmont and the petitioner, the Lake Central, both of which operated local services in the neighborhood of the -- of the Great Lakes. This case is really a small segment of a large multi-party proceeding in which the commission the -- the Civil Aeronautics Board considered the necessities of additional routes to serve the area between the Great Lakes and Florida. Delta had applied for and had been granted permission for a new route between Detroit and Miami, Florida. And at the same time, it has been granted permission to serve several new intermediate routes on its existing route between Chicago and Miami. These intermediate points which were added to its authority included Indianapolis and Louisville and Dayton among others. We'll recess now.\", \"language\": \"en\", \"duration\": 238.633, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 15.539, \"text\": \"Number 492, Civil Aeronautics Board, Petitioner, versus Delta Air Lines, Incorporated, and Number 493, Lake Central Airlines, Incorporated, Petitioner versus Delta Air Lines.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 15.539, \"end\": 19.32, \"text\": \"Mr. Davis.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 2, \"start\": 19.32, \"end\": 23.443, \"text\": \"Mr. Chief Justice, if the Court please.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 23.443, \"end\": 30.044, \"text\": \"This case arises on petition for certiorari to the Court of Appeals for the Second Circuit.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 30.044, \"end\": 49.489, \"text\": \"That Court upheld and attacked by Delta Air Lines upon an order of the Civil Aeronautics Board which had ordered modifications in a certificate of public convenience and necessity which had been granted for some new routes.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 49.489, \"end\": 60.061, \"text\": \"A competing airline of -- of Delta, Lake Central, had intervened in the court proceeding to review the order.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 60.061, \"end\": 72.743, \"text\": \"And both Lake Central and the Civil Aeronautics Board filed petitions for certiorari to review what it claimed as an error, of course, involves.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 72.743, \"end\": 78.975, \"text\": \"Both petitions were granted and by stipulation, they have been consolidated for argument here.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 78.975, \"end\": 97.402, \"text\": \"I shall make the opening argument for the Civil Aeronautics Board, then the petitioner, Lake Central, will follow me.Delta will respond to both of us at one time and if there is time, and I think there will be, I shall rebut.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 97.402, \"end\": 130.315, \"text\": \"Now, the only issue here is whether the Civil Aeronautics Board, in order to preserve its jurisdiction to consider motions for reconsideration, must postpone the effectiveness of a certificate for public convenience and necessity or whether it may permit that certificate to become effective and then on completion of its consideration, make a modification of the effective certificate.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 130.315, \"end\": 135.654, \"text\": \"This is purely a matter of administrative procedure of statutory construction.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 11, \"start\": 135.654, \"end\": 139.798, \"text\": \"There's no question here of constitutionality.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 139.798, \"end\": 163.762, \"text\": \"There's no question here of evidences, merely a question as to whether or not the Civil Aeronautics Board has power to modify an effective certificate of convenience and -- and necessity when that certificate was granted during the pendency of motions for reconsideration.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 163.762, \"end\": 182.934, \"text\": \"Now, here, the dispute is between the -- the Delta Air Lines, which is a trunk carrier, and two local lines, the Piedmont and the petitioner, the Lake Central, both of which operated local services in the neighborhood of the -- of the Great Lakes.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 182.934, \"end\": 204.503, \"text\": \"This case is really a small segment of a large multi-party proceeding in which the commission the -- the Civil Aeronautics Board considered the necessities of additional routes to serve the area between the Great Lakes and Florida.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 204.503, \"end\": 214.186, \"text\": \"Delta had applied for and had been granted permission for a new route between Detroit and Miami, Florida.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 16, \"start\": 214.186, \"end\": 226.076, \"text\": \"And at the same time, it has been granted permission to serve several new intermediate routes on its existing route between Chicago and Miami.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 17, \"start\": 226.076, \"end\": 236.691, \"text\": \"These intermediate points which were added to its authority included Indianapolis and Louisville and Dayton among others.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 18, \"start\": 236.691, \"end\": 238.633, \"text\": \"We'll recess now.\", \"confidence\": 1.0, \"speaker\": 0}], \"metadata\": {\"created_at\": \"2026-09-19T23:23:29.682603+00:00\", \"processed_at\": \"2026-09-19T23:23:29.682603+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 19, \"speakers\": {\"0\": \"Earl Warren\", \"1\": \"Hugo L. Black\", \"2\": \"Felix Frankfurter\", \"3\": \"William O. Douglas\", \"4\": \"Tom C. Clark\", \"5\": \"John M. Harlan II\", \"6\": \"William J. Brennan, Jr.\", \"7\": \"Charles E. Whittaker\", \"8\": \"Potter Stewart\", \"9\": \"John F . Davis\"}}}",
+      "encoding": "json",
+      "product": "court-transcript"
+    }
+  ],
+  "created_at": "2026-09-19T23:23:29.680762+00:00",
+  "extensions": [
+    "role",
+    "meta",
+    "wtf_transcription",
+    "lawful_basis"
+  ],
+  "subject": "Civil Aeronautics Board v. Delta Air Lines, Inc. (492) - Oral Argument - April 27, 1961 (Part 1)",
+  "updated_at": "2026-09-19T23:23:29.682603+00:00"
+}

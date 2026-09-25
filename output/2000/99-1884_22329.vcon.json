@@ -1,1 +1,170 @@
-{"vcon": "0.4.0", "uuid": "01a0be52-76cf-8ec0-9dd8-dd37220d739c", "parties": [{"name": "William H. Rehnquist", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_h_rehnquist", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "John Paul Stevens", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/john_paul_stevens", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Sandra Day O'Connor", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/sandra_day_oconnor", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Antonin Scalia", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/antonin_scalia", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Anthony M. Kennedy", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/anthony_m_kennedy", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "David H. Souter", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/david_h_souter", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Clarence Thomas", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/clarence_thomas", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Ruth Bader Ginsburg", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/ruth_bader_ginsburg", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Stephen G. Breyer", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/stephen_g_breyer", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William P. O'Malley", "role": "advocate", "meta": {"oyez": "https://api.oyez.org/people/william_p_omalley", "description": "Scranton, Pennsylvania, argued the cause for the petitioners"}}], "dialog": [{"type": "recording", "start": "2001-02-20T00:00:00+00:00", "parties": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "mediatype": "audio/mpeg", "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/2000/99-1884/20010220a_99-1884.delivery.mp3", "duration": 2780.32, "meta": {"oyez_media_id": 22329, "source": "oyez", "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"}, "metadata": {"oyez_media_id": 22329, "source": "oyez"}}], "attachments": [{"purpose": "case_metadata", "body": "{\"docket_number\": \"99-1884\", \"additional_docket_numbers\": null, \"term\": \"2000\", \"first_party\": \"Lackawanna County District Attorney\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Coss\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"United States Court of Appeals for the Third Circuit\", \"argued\": [\"2001-02-20T06:00:00Z\"], \"question\": \"<p>May a state prisoner use a federal habeas petition to challenge a current sentence on the ground that it was enhanced based on an unconstitutional prior conviction for which the sentence has fully expired?</p>\\n\", \"facts_of_the_case\": \"<p>In 1986, after being convicted for simple assault, institutional vandalism, and criminal mischief, Edward R. Coss, Jr., filed a petition for relief, but the Pennsylvania courts never ruled on the petition. In 1990, after he had served the full sentences for his 1986 convictions, Coss was convicted of aggravated assault. Ultimately, the sentencing court did not consider Coss' 1986 convictions in determining his eligible sentencing range. In choosing a sentence within the applicable range, the court considered several factors including Coss' extensive criminal record, making reference to his 1986 convictions. Coss then filed a petition for a writ of habeas corpus, claiming that his 1986 convictions were constitutionally invalid. The Federal District Court denied the petition reasoning that Coss had not been prejudiced by his 1986 counsel's ineffectiveness. The Court of Appeals found that Coss would not have been convicted in 1986 but for the ineffective assistance. The court remanded the case ordering a retrial or resentencing without consideration of the 1986 conviction.</p>\\n\", \"conclusion\": \"<p>No. In a 5-4 opinion delivered by Justice Sandra Day O'Connor, the Court held that \\\"once a state conviction is no longer open to direct or collateral attack in its own right because the defendant failed to pursue those remedies while they were available (or because the defendant did so unsuccessfully), the conviction may be regarded as conclusively valid. If that conviction is later used to enhance a criminal sentence, the defendant generally may not challenge the enhanced sentence through a [federal habeas petition] on the ground that the prior conviction was unconstitutionally obtained.\\\" Justice David H. Souter filed a dissenting opinion, which was joined by Justices John Paul Stevens and Ruth Bader Ginsburg. Justice Stephen G. Breyer also filed a dissenting opinion.</p>\\n\", \"citation\": {\"volume\": \"532\", \"page\": \"394\", \"year\": \"2001\", \"href\": \"https://api.oyez.org/case_citation/case_citation/18815\"}, \"oyez_url\": \"https://api.oyez.org/cases/2000/99-1884\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/532/394/\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-20T10:17:50.543959+00:00"}, {"purpose": "tags", "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"2000\", \"docket\": \"99-1884\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-20T10:17:50.543959+00:00"}, {"purpose": "lawful_basis", "encoding": "json", "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-20T10:17:50.544493+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-20T10:17:50.544493+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-20T10:17:50.544493+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-20T10:17:50.544493+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-20T10:17:50.544493+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}", "party": 0, "dialog": 0, "start": "2026-09-20T10:17:50.543959+00:00"}, {"purpose": "ingress_info", "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-20T10:17:50.544493+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/2000/99-1884\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/22329\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-20T10:17:50.543959+00:00"}], "analysis": [{"type": "wtf_transcription", "dialog": 0, "vendor": "oyez", "body": "{\"transcript\": {\"text\": \"We'll hear argument next in Number 99-1884, Lackawanna County District Attorney v. South Carolina. Mr. O'Malley. Mr. Chief Justice, and may it please the Court: Essentially involved in this case is the failure of the Third Circuit Court to apply the rationale espoused by this Court in Custis v. United States, to conclude that constitutional deprivations other than deprivation of the right to counsel can be addressed in habeas corpus proceedings as constituting a collateral effect enhancing the sentence of someone in custody under a conviction that they are seeking to attack in the Federal habeas corpus proceedings. In this case, Edward Coss had been convicted in the mid-eighties of simple assault and institutional vandalism and had been sentenced to incarceration, and he had completely served his sentence.\", \"language\": \"en\", \"duration\": 2780.32, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 10.184, \"text\": \"We'll hear argument next in Number 99-1884, Lackawanna County District Attorney v. South Carolina.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 10.184, \"end\": 60.164, \"text\": \"Mr. O'Malley.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 2, \"start\": 60.164, \"end\": 62.726, \"text\": \"Mr. Chief Justice, and may it please the Court:\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 62.726, \"end\": 117.736, \"text\": \"Essentially involved in this case is the failure of the Third Circuit Court to apply the rationale espoused by this Court in Custis v. United States, to conclude that constitutional deprivations other than deprivation of the right to counsel can be addressed in habeas corpus proceedings as constituting a collateral effect enhancing the sentence of someone in custody under a conviction that they are seeking to attack in the Federal habeas corpus proceedings.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 117.736, \"end\": 2780.32, \"text\": \"In this case, Edward Coss had been convicted in the mid-eighties of simple assault and institutional vandalism and had been sentenced to incarceration, and he had completely served his sentence.\", \"confidence\": 1.0, \"speaker\": 9}], \"metadata\": {\"created_at\": \"2026-09-20T10:17:50.544493+00:00\", \"processed_at\": \"2026-09-20T10:17:50.544493+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 5, \"speakers\": {\"0\": \"William H. Rehnquist\", \"1\": \"John Paul Stevens\", \"2\": \"Sandra Day O'Connor\", \"3\": \"Antonin Scalia\", \"4\": \"Anthony M. Kennedy\", \"5\": \"David H. Souter\", \"6\": \"Clarence Thomas\", \"7\": \"Ruth Bader Ginsburg\", \"8\": \"Stephen G. Breyer\", \"9\": \"William P. O'Malley\"}}}", "encoding": "json", "product": "court-transcript"}], "created_at": "2026-09-20T10:17:50.543959+00:00", "extensions": ["role", "meta", "wtf_transcription", "lawful_basis"], "subject": "Lackawanna County District Attorney  v. Coss (99-1884) - Oral Argument - February 20, 2001", "updated_at": "2026-09-20T10:17:50.544493+00:00"}
+{
+  "vcon": "0.4.0",
+  "uuid": "01a0be52-76cf-8ec0-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "William H. Rehnquist",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_h_rehnquist",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "John Paul Stevens",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/john_paul_stevens",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Sandra Day O'Connor",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/sandra_day_oconnor",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Antonin Scalia",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/antonin_scalia",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Anthony M. Kennedy",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/anthony_m_kennedy",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "David H. Souter",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/david_h_souter",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Clarence Thomas",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/clarence_thomas",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Ruth Bader Ginsburg",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/ruth_bader_ginsburg",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Stephen G. Breyer",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/stephen_g_breyer",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William P. O'Malley",
+      "role": "advocate",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_p_omalley",
+        "description": "Scranton, Pennsylvania, argued the cause for the petitioners"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2001-02-20T00:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mediatype": "audio/mpeg",
+      "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/2000/99-1884/20010220a_99-1884.delivery.mp3",
+      "duration": 2780.32,
+      "meta": {
+        "oyez_media_id": 22329,
+        "source": "oyez",
+        "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"
+      },
+      "metadata": {
+        "oyez_media_id": 22329,
+        "source": "oyez"
+      },
+      "content_hash": "sha512-ZudgAqW03wq3g89_tr5SBEKPFdDpCEinpyUoEGxFEOXDcL2RTYNozQ3g-zpBRGBogiaipy7UIY-K9yVHVUwG4Q"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "case_metadata",
+      "body": "{\"docket_number\": \"99-1884\", \"additional_docket_numbers\": null, \"term\": \"2000\", \"first_party\": \"Lackawanna County District Attorney\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Coss\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"United States Court of Appeals for the Third Circuit\", \"argued\": [\"2001-02-20T06:00:00Z\"], \"question\": \"<p>May a state prisoner use a federal habeas petition to challenge a current sentence on the ground that it was enhanced based on an unconstitutional prior conviction for which the sentence has fully expired?</p>\\n\", \"facts_of_the_case\": \"<p>In 1986, after being convicted for simple assault, institutional vandalism, and criminal mischief, Edward R. Coss, Jr., filed a petition for relief, but the Pennsylvania courts never ruled on the petition. In 1990, after he had served the full sentences for his 1986 convictions, Coss was convicted of aggravated assault. Ultimately, the sentencing court did not consider Coss' 1986 convictions in determining his eligible sentencing range. In choosing a sentence within the applicable range, the court considered several factors including Coss' extensive criminal record, making reference to his 1986 convictions. Coss then filed a petition for a writ of habeas corpus, claiming that his 1986 convictions were constitutionally invalid. The Federal District Court denied the petition reasoning that Coss had not been prejudiced by his 1986 counsel's ineffectiveness. The Court of Appeals found that Coss would not have been convicted in 1986 but for the ineffective assistance. The court remanded the case ordering a retrial or resentencing without consideration of the 1986 conviction.</p>\\n\", \"conclusion\": \"<p>No. In a 5-4 opinion delivered by Justice Sandra Day O'Connor, the Court held that \\\"once a state conviction is no longer open to direct or collateral attack in its own right because the defendant failed to pursue those remedies while they were available (or because the defendant did so unsuccessfully), the conviction may be regarded as conclusively valid. If that conviction is later used to enhance a criminal sentence, the defendant generally may not challenge the enhanced sentence through a [federal habeas petition] on the ground that the prior conviction was unconstitutionally obtained.\\\" Justice David H. Souter filed a dissenting opinion, which was joined by Justices John Paul Stevens and Ruth Bader Ginsburg. Justice Stephen G. Breyer also filed a dissenting opinion.</p>\\n\", \"citation\": {\"volume\": \"532\", \"page\": \"394\", \"year\": \"2001\", \"href\": \"https://api.oyez.org/case_citation/case_citation/18815\"}, \"oyez_url\": \"https://api.oyez.org/cases/2000/99-1884\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/532/394/\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-20T10:17:50.543959+00:00"
+    },
+    {
+      "purpose": "tags",
+      "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"2000\", \"docket\": \"99-1884\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-20T10:17:50.543959+00:00"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-20T10:17:50.544493+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-20T10:17:50.544493+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-20T10:17:50.544493+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-20T10:17:50.544493+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-20T10:17:50.544493+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-20T10:17:50.543959+00:00"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-20T10:17:50.544493+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/2000/99-1884\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/22329\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-20T10:17:50.543959+00:00"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "oyez",
+      "body": "{\"transcript\": {\"text\": \"We'll hear argument next in Number 99-1884, Lackawanna County District Attorney v. South Carolina. Mr. O'Malley. Mr. Chief Justice, and may it please the Court: Essentially involved in this case is the failure of the Third Circuit Court to apply the rationale espoused by this Court in Custis v. United States, to conclude that constitutional deprivations other than deprivation of the right to counsel can be addressed in habeas corpus proceedings as constituting a collateral effect enhancing the sentence of someone in custody under a conviction that they are seeking to attack in the Federal habeas corpus proceedings. In this case, Edward Coss had been convicted in the mid-eighties of simple assault and institutional vandalism and had been sentenced to incarceration, and he had completely served his sentence.\", \"language\": \"en\", \"duration\": 2780.32, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 10.184, \"text\": \"We'll hear argument next in Number 99-1884, Lackawanna County District Attorney v. South Carolina.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 10.184, \"end\": 60.164, \"text\": \"Mr. O'Malley.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 2, \"start\": 60.164, \"end\": 62.726, \"text\": \"Mr. Chief Justice, and may it please the Court:\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 62.726, \"end\": 117.736, \"text\": \"Essentially involved in this case is the failure of the Third Circuit Court to apply the rationale espoused by this Court in Custis v. United States, to conclude that constitutional deprivations other than deprivation of the right to counsel can be addressed in habeas corpus proceedings as constituting a collateral effect enhancing the sentence of someone in custody under a conviction that they are seeking to attack in the Federal habeas corpus proceedings.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 117.736, \"end\": 2780.32, \"text\": \"In this case, Edward Coss had been convicted in the mid-eighties of simple assault and institutional vandalism and had been sentenced to incarceration, and he had completely served his sentence.\", \"confidence\": 1.0, \"speaker\": 9}], \"metadata\": {\"created_at\": \"2026-09-20T10:17:50.544493+00:00\", \"processed_at\": \"2026-09-20T10:17:50.544493+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 5, \"speakers\": {\"0\": \"William H. Rehnquist\", \"1\": \"John Paul Stevens\", \"2\": \"Sandra Day O'Connor\", \"3\": \"Antonin Scalia\", \"4\": \"Anthony M. Kennedy\", \"5\": \"David H. Souter\", \"6\": \"Clarence Thomas\", \"7\": \"Ruth Bader Ginsburg\", \"8\": \"Stephen G. Breyer\", \"9\": \"William P. O'Malley\"}}}",
+      "encoding": "json",
+      "product": "court-transcript"
+    }
+  ],
+  "created_at": "2026-09-20T10:17:50.543959+00:00",
+  "extensions": [
+    "role",
+    "meta",
+    "wtf_transcription",
+    "lawful_basis"
+  ],
+  "subject": "Lackawanna County District Attorney  v. Coss (99-1884) - Oral Argument - February 20, 2001",
+  "updated_at": "2026-09-20T10:17:50.544493+00:00"
+}

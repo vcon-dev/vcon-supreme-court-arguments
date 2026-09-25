@@ -1,6 +1,6 @@
 {
   "name": "vcon-supreme-court-arguments",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "vCons for every Supreme Court of the United States oral argument with public audio, terms 1955 through 2025. Public court record; dialog bodies are external URLs to the Court's recordings as hosted by Oyez, with speaker-attributed transcripts carried as analysis.",
   "vcon_dir": "output",
   "count": 8503,

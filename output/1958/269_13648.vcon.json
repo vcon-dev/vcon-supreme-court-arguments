@@ -1,1 +1,169 @@
-{"vcon": "0.4.0", "uuid": "01a0bbf3-ab3b-857c-9dd8-dd37220d739c", "parties": [{"name": "Earl Warren", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/earl_warren", "title": "Chief Justice of the United States"}}, {"name": "Hugo L. Black", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/hugo_l_black", "title": "Associate Justice"}}, {"name": "Felix Frankfurter", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/felix_frankfurter", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William O. Douglas", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_o_douglas", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Tom C. Clark", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/tom_c_clark", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "John M. Harlan II", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/john_m_harlan2", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William J. Brennan, Jr.", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_j_brennan_jr", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Charles E. Whittaker", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/charles_e_whittaker", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Potter Stewart", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/potter_stewart", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Harry E. Wilmarth", "role": "speaker", "meta": {"oyez": "https://api.oyez.org/people/harry_e_wilmarth"}}], "dialog": [{"type": "recording", "start": "1959-03-24T00:00:00+00:00", "parties": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "mediatype": "audio/mpeg", "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1958/269/19590324a_269_part1.delivery.mp3", "duration": 360.916, "meta": {"oyez_media_id": 13648, "source": "oyez", "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"}, "metadata": {"oyez_media_id": 13648, "source": "oyez"}}], "attachments": [{"purpose": "case_metadata", "body": "{\"docket_number\": \"269\", \"additional_docket_numbers\": null, \"term\": \"1958\", \"first_party\": \"Felter\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Southern Pacific Company\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"United States Court of Appeals for the Ninth Circuit\", \"argued\": [\"1959-03-24T06:00:00Z\"], \"question\": \"\", \"facts_of_the_case\": \"\", \"conclusion\": \"\", \"citation\": {\"volume\": \"359\", \"page\": \"326\", \"year\": \"1959\", \"href\": \"https://api.oyez.org/case_citation/case_citation/24523\"}, \"oyez_url\": \"https://api.oyez.org/cases/1958/269\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/359/326/\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:15:03.611394+00:00"}, {"purpose": "tags", "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1958\", \"docket\": \"269\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:15:03.611394+00:00"}, {"purpose": "lawful_basis", "encoding": "json", "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-19T23:15:03.612939+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-19T23:15:03.612939+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-19T23:15:03.612939+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-19T23:15:03.612939+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-19T23:15:03.612939+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}", "party": 0, "dialog": 0, "start": "2026-09-19T23:15:03.611394+00:00"}, {"purpose": "ingress_info", "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-19T23:15:03.612939+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1958/269\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/13648\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:15:03.611394+00:00"}], "analysis": [{"type": "wtf_transcription", "dialog": 0, "vendor": "oyez", "body": "{\"transcript\": {\"text\": \"Number 269, Marion S. Felter, on behalf of himself and others similarly situated, Petitioner, versus Southern Pacific Company et al. Mr. Wilmarth, you may proceed. Mr. Chief Justice, may it please the Court. This case involves the provisions for the Railway Labor Act and the rights of rail employees under that and more particularly, the sections dealing with \u201ccheckoff\u201d agreements. With the permission of the Court, I'll refer to -- to some of the salient provisions of the Act and the features of it before turning to the facts of the case because we believe the facts which were undisputed will have more significance with the Act is dealt with first and then the facts taken out. The specific provisions of the Act involved in this particular case are set forth in an appendix to the brief of the petitioner, being the green brief and in the back of that brief is divider -- blue divider and the provisions of the Act involved here are set out. As a preliminary manner, the Court will observe Section 2 Fourth on the first page of the appendix which is followed by Section 2 Eleventh beginning on the second page of the appendix. Those two sections were enacted at different times. Section 2 Fourth came into the Railway Labor Act in 1934, Section 2 Eleventh came into the Act in 1951. Section 2 Fourth refers and prohibit influencing or coercing rights of self organization by railroads. I refer to it now specifically because near the bottom of that Section has one of the prohibited acts \u201ccheckoff\u201d agreements were prohibited. In other words, Congress recognize the fact that \u201ccheckoff\u201d agreements as such or where the railroad checks off dues might be a means of influencing employees and rights of self organization. They specifically prohibited \u201ccheckoff\u201d agreements or any form of deduction of wages or dues at that time. That continued in the Act until 1951 when Section 2 Eleventh was adopted which permitted certain form of checkoff. Now, I only advert to that situation for this reason. Since 2 Fourth is still in the Act with a blanket prohibition against \u201ccheckoff\u201d agreements except to the extent that it is amended by 2 Eleventh. 2 Eleventh would be considered an exception to the general prohibition provided by 2 Fourth. And I would assume that fact would impel this Court to the consideration that 2 Eleventh should be strictly construed as an exception in the statute to the general prohibition. Now, looking at 2 Eleventh, and on pages -- the bottom of page 2 and page 3 of the appendix, we would like to emphasize two or three considerations regarding that section. The first is subsection (b) of 2 Eleventh permits carriers and organizations -- railway labor organizations to enter into \u201ccheckoff\u201d agreements and negotiate those agreements. However, a -- a \u201ccheckoff\u201d agreement negotiated by a collective bargaining representative does not become applicable to the craft as such as general collective bargaining agreements do. The statute specifically limits a \u201ccheckoff\u201d agreement to the members in the organization and doesn't apply generally to the craft as such. For example, absent a union shop contract, the Brotherhood of Railroad Trainmen may represent the craft of Trainmen on the Southern Pacific Railroad. That craft of Trainmen so represented will be bound by collective bargaining contracts made in it -- their behalf by the Brotherhood of Railroad Trainmen. However, among the craft, there may be a number who do not belong to either the Brotherhood of Railroad Trainmen or any railroad organization. We'll recess now, Mr. --\", \"language\": \"en\", \"duration\": 360.916, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 24.379, \"text\": \"Number 269, Marion S. Felter, on behalf of himself and others similarly situated, Petitioner, versus Southern Pacific Company et al.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 24.379, \"end\": 26.688, \"text\": \"Mr. Wilmarth, you may proceed.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 2, \"start\": 26.688, \"end\": 32.715, \"text\": \"Mr. Chief Justice, may it please the Court.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 32.715, \"end\": 49.709, \"text\": \"This case involves the provisions for the Railway Labor Act and the rights of rail employees under that and more particularly, the sections dealing with \u201ccheckoff\u201d agreements.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 49.709, \"end\": 81.409, \"text\": \"With the permission of the Court, I'll refer to -- to some of the salient provisions of the Act and the features of it before turning to the facts of the case because we believe the facts which were undisputed will have more significance with the Act is dealt with first and then the facts taken out.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 81.409, \"end\": 110.087, \"text\": \"The specific provisions of the Act involved in this particular case are set forth in an appendix to the brief of the petitioner, being the green brief and in the back of that brief is divider -- blue divider and the provisions of the Act involved here are set out.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 110.087, \"end\": 129.627, \"text\": \"As a preliminary manner, the Court will observe Section 2 Fourth on the first page of the appendix which is followed by Section 2 Eleventh beginning on the second page of the appendix.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 129.627, \"end\": 132.629, \"text\": \"Those two sections were enacted at different times.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 132.629, \"end\": 143.492, \"text\": \"Section 2 Fourth came into the Railway Labor Act in 1934, Section 2 Eleventh came into the Act in 1951.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 143.492, \"end\": 155.302, \"text\": \"Section 2 Fourth refers and prohibit influencing or coercing rights of self organization by railroads.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 155.302, \"end\": 172.258, \"text\": \"I refer to it now specifically because near the bottom of that Section has one of the prohibited acts \u201ccheckoff\u201d agreements were prohibited.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 11, \"start\": 172.258, \"end\": 187.17, \"text\": \"In other words, Congress recognize the fact that \u201ccheckoff\u201d agreements as such or where the railroad checks off dues might be a means of influencing employees and rights of self organization.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 187.17, \"end\": 197.627, \"text\": \"They specifically prohibited \u201ccheckoff\u201d agreements or any form of deduction of wages or dues at that time.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 197.627, \"end\": 209.048, \"text\": \"That continued in the Act until 1951 when Section 2 Eleventh was adopted which permitted certain form of checkoff.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 209.048, \"end\": 214.353, \"text\": \"Now, I only advert to that situation for this reason.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 214.353, \"end\": 228.492, \"text\": \"Since 2 Fourth is still in the Act with a blanket prohibition against \u201ccheckoff\u201d agreements except to the extent that it is amended by 2 Eleventh.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 16, \"start\": 228.492, \"end\": 239.114, \"text\": \"2 Eleventh would be considered an exception to the general prohibition provided by 2 Fourth.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 17, \"start\": 239.114, \"end\": 253.807, \"text\": \"And I would assume that fact would impel this Court to the consideration that 2 Eleventh should be strictly construed as an exception in the statute to the general prohibition.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 18, \"start\": 253.807, \"end\": 273.262, \"text\": \"Now, looking at 2 Eleventh, and on pages -- the bottom of page 2 and page 3 of the appendix, we would like to emphasize two or three considerations regarding that section.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 19, \"start\": 273.262, \"end\": 293.436, \"text\": \"The first is subsection (b) of 2 Eleventh permits carriers and organizations -- railway labor organizations to enter into \u201ccheckoff\u201d agreements and negotiate those agreements.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 20, \"start\": 293.436, \"end\": 308.608, \"text\": \"However, a -- a \u201ccheckoff\u201d agreement negotiated by a collective bargaining representative does not become applicable to the craft as such as general collective bargaining agreements do.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 21, \"start\": 308.608, \"end\": 320.188, \"text\": \"The statute specifically limits a \u201ccheckoff\u201d agreement to the members in the organization and doesn't apply generally to the craft as such.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 22, \"start\": 320.188, \"end\": 338.552, \"text\": \"For example, absent a union shop contract, the Brotherhood of Railroad Trainmen may represent the craft of Trainmen on the Southern Pacific Railroad.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 23, \"start\": 338.552, \"end\": 348.959, \"text\": \"That craft of Trainmen so represented will be bound by collective bargaining contracts made in it -- their behalf by the Brotherhood of Railroad Trainmen.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 24, \"start\": 348.959, \"end\": 356.782, \"text\": \"However, among the craft, there may be a number who do not belong to either the Brotherhood of Railroad Trainmen or any railroad organization.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 25, \"start\": 356.782, \"end\": 360.916, \"text\": \"We'll recess now, Mr. --\", \"confidence\": 1.0, \"speaker\": 0}], \"metadata\": {\"created_at\": \"2026-09-19T23:15:03.612939+00:00\", \"processed_at\": \"2026-09-19T23:15:03.612939+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 26, \"speakers\": {\"0\": \"Earl Warren\", \"1\": \"Hugo L. Black\", \"2\": \"Felix Frankfurter\", \"3\": \"William O. Douglas\", \"4\": \"Tom C. Clark\", \"5\": \"John M. Harlan II\", \"6\": \"William J. Brennan, Jr.\", \"7\": \"Charles E. Whittaker\", \"8\": \"Potter Stewart\", \"9\": \"Harry E. Wilmarth\"}}}", "encoding": "json", "product": "court-transcript"}], "created_at": "2026-09-19T23:15:03.611394+00:00", "extensions": ["role", "meta", "wtf_transcription", "lawful_basis"], "subject": "Felter v. Southern Pacific Company (269) - Oral Argument - March 24, 1959 (Part 1)", "updated_at": "2026-09-19T23:15:03.612939+00:00"}
+{
+  "vcon": "0.4.0",
+  "uuid": "01a0bbf3-ab3b-857c-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Earl Warren",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/earl_warren",
+        "title": "Chief Justice of the United States"
+      }
+    },
+    {
+      "name": "Hugo L. Black",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/hugo_l_black",
+        "title": "Associate Justice"
+      }
+    },
+    {
+      "name": "Felix Frankfurter",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/felix_frankfurter",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William O. Douglas",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_o_douglas",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Tom C. Clark",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/tom_c_clark",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "John M. Harlan II",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/john_m_harlan2",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William J. Brennan, Jr.",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_j_brennan_jr",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Charles E. Whittaker",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/charles_e_whittaker",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Potter Stewart",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/potter_stewart",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Harry E. Wilmarth",
+      "role": "speaker",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/harry_e_wilmarth"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "1959-03-24T00:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mediatype": "audio/mpeg",
+      "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1958/269/19590324a_269_part1.delivery.mp3",
+      "duration": 360.916,
+      "meta": {
+        "oyez_media_id": 13648,
+        "source": "oyez",
+        "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"
+      },
+      "metadata": {
+        "oyez_media_id": 13648,
+        "source": "oyez"
+      },
+      "content_hash": "sha512-DODdt5-gNC4jAsxpYUYt_cDpjfFZDn5tlPlV5OMs5kgRJ-JXx9lhvpFEVkmRqyxIdGvbDZY75727EhvOpb7zsA"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "case_metadata",
+      "body": "{\"docket_number\": \"269\", \"additional_docket_numbers\": null, \"term\": \"1958\", \"first_party\": \"Felter\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Southern Pacific Company\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"United States Court of Appeals for the Ninth Circuit\", \"argued\": [\"1959-03-24T06:00:00Z\"], \"question\": \"\", \"facts_of_the_case\": \"\", \"conclusion\": \"\", \"citation\": {\"volume\": \"359\", \"page\": \"326\", \"year\": \"1959\", \"href\": \"https://api.oyez.org/case_citation/case_citation/24523\"}, \"oyez_url\": \"https://api.oyez.org/cases/1958/269\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/359/326/\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:15:03.611394+00:00"
+    },
+    {
+      "purpose": "tags",
+      "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1958\", \"docket\": \"269\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:15:03.611394+00:00"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-19T23:15:03.612939+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-19T23:15:03.612939+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-19T23:15:03.612939+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-19T23:15:03.612939+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-19T23:15:03.612939+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:15:03.611394+00:00"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-19T23:15:03.612939+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1958/269\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/13648\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:15:03.611394+00:00"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "oyez",
+      "body": "{\"transcript\": {\"text\": \"Number 269, Marion S. Felter, on behalf of himself and others similarly situated, Petitioner, versus Southern Pacific Company et al. Mr. Wilmarth, you may proceed. Mr. Chief Justice, may it please the Court. This case involves the provisions for the Railway Labor Act and the rights of rail employees under that and more particularly, the sections dealing with “checkoff” agreements. With the permission of the Court, I'll refer to -- to some of the salient provisions of the Act and the features of it before turning to the facts of the case because we believe the facts which were undisputed will have more significance with the Act is dealt with first and then the facts taken out. The specific provisions of the Act involved in this particular case are set forth in an appendix to the brief of the petitioner, being the green brief and in the back of that brief is divider -- blue divider and the provisions of the Act involved here are set out. As a preliminary manner, the Court will observe Section 2 Fourth on the first page of the appendix which is followed by Section 2 Eleventh beginning on the second page of the appendix. Those two sections were enacted at different times. Section 2 Fourth came into the Railway Labor Act in 1934, Section 2 Eleventh came into the Act in 1951. Section 2 Fourth refers and prohibit influencing or coercing rights of self organization by railroads. I refer to it now specifically because near the bottom of that Section has one of the prohibited acts “checkoff” agreements were prohibited. In other words, Congress recognize the fact that “checkoff” agreements as such or where the railroad checks off dues might be a means of influencing employees and rights of self organization. They specifically prohibited “checkoff” agreements or any form of deduction of wages or dues at that time. That continued in the Act until 1951 when Section 2 Eleventh was adopted which permitted certain form of checkoff. Now, I only advert to that situation for this reason. Since 2 Fourth is still in the Act with a blanket prohibition against “checkoff” agreements except to the extent that it is amended by 2 Eleventh. 2 Eleventh would be considered an exception to the general prohibition provided by 2 Fourth. And I would assume that fact would impel this Court to the consideration that 2 Eleventh should be strictly construed as an exception in the statute to the general prohibition. Now, looking at 2 Eleventh, and on pages -- the bottom of page 2 and page 3 of the appendix, we would like to emphasize two or three considerations regarding that section. The first is subsection (b) of 2 Eleventh permits carriers and organizations -- railway labor organizations to enter into “checkoff” agreements and negotiate those agreements. However, a -- a “checkoff” agreement negotiated by a collective bargaining representative does not become applicable to the craft as such as general collective bargaining agreements do. The statute specifically limits a “checkoff” agreement to the members in the organization and doesn't apply generally to the craft as such. For example, absent a union shop contract, the Brotherhood of Railroad Trainmen may represent the craft of Trainmen on the Southern Pacific Railroad. That craft of Trainmen so represented will be bound by collective bargaining contracts made in it -- their behalf by the Brotherhood of Railroad Trainmen. However, among the craft, there may be a number who do not belong to either the Brotherhood of Railroad Trainmen or any railroad organization. We'll recess now, Mr. --\", \"language\": \"en\", \"duration\": 360.916, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 24.379, \"text\": \"Number 269, Marion S. Felter, on behalf of himself and others similarly situated, Petitioner, versus Southern Pacific Company et al.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 24.379, \"end\": 26.688, \"text\": \"Mr. Wilmarth, you may proceed.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 2, \"start\": 26.688, \"end\": 32.715, \"text\": \"Mr. Chief Justice, may it please the Court.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 32.715, \"end\": 49.709, \"text\": \"This case involves the provisions for the Railway Labor Act and the rights of rail employees under that and more particularly, the sections dealing with “checkoff” agreements.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 49.709, \"end\": 81.409, \"text\": \"With the permission of the Court, I'll refer to -- to some of the salient provisions of the Act and the features of it before turning to the facts of the case because we believe the facts which were undisputed will have more significance with the Act is dealt with first and then the facts taken out.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 81.409, \"end\": 110.087, \"text\": \"The specific provisions of the Act involved in this particular case are set forth in an appendix to the brief of the petitioner, being the green brief and in the back of that brief is divider -- blue divider and the provisions of the Act involved here are set out.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 110.087, \"end\": 129.627, \"text\": \"As a preliminary manner, the Court will observe Section 2 Fourth on the first page of the appendix which is followed by Section 2 Eleventh beginning on the second page of the appendix.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 129.627, \"end\": 132.629, \"text\": \"Those two sections were enacted at different times.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 132.629, \"end\": 143.492, \"text\": \"Section 2 Fourth came into the Railway Labor Act in 1934, Section 2 Eleventh came into the Act in 1951.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 143.492, \"end\": 155.302, \"text\": \"Section 2 Fourth refers and prohibit influencing or coercing rights of self organization by railroads.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 155.302, \"end\": 172.258, \"text\": \"I refer to it now specifically because near the bottom of that Section has one of the prohibited acts “checkoff” agreements were prohibited.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 11, \"start\": 172.258, \"end\": 187.17, \"text\": \"In other words, Congress recognize the fact that “checkoff” agreements as such or where the railroad checks off dues might be a means of influencing employees and rights of self organization.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 187.17, \"end\": 197.627, \"text\": \"They specifically prohibited “checkoff” agreements or any form of deduction of wages or dues at that time.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 197.627, \"end\": 209.048, \"text\": \"That continued in the Act until 1951 when Section 2 Eleventh was adopted which permitted certain form of checkoff.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 209.048, \"end\": 214.353, \"text\": \"Now, I only advert to that situation for this reason.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 214.353, \"end\": 228.492, \"text\": \"Since 2 Fourth is still in the Act with a blanket prohibition against “checkoff” agreements except to the extent that it is amended by 2 Eleventh.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 16, \"start\": 228.492, \"end\": 239.114, \"text\": \"2 Eleventh would be considered an exception to the general prohibition provided by 2 Fourth.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 17, \"start\": 239.114, \"end\": 253.807, \"text\": \"And I would assume that fact would impel this Court to the consideration that 2 Eleventh should be strictly construed as an exception in the statute to the general prohibition.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 18, \"start\": 253.807, \"end\": 273.262, \"text\": \"Now, looking at 2 Eleventh, and on pages -- the bottom of page 2 and page 3 of the appendix, we would like to emphasize two or three considerations regarding that section.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 19, \"start\": 273.262, \"end\": 293.436, \"text\": \"The first is subsection (b) of 2 Eleventh permits carriers and organizations -- railway labor organizations to enter into “checkoff” agreements and negotiate those agreements.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 20, \"start\": 293.436, \"end\": 308.608, \"text\": \"However, a -- a “checkoff” agreement negotiated by a collective bargaining representative does not become applicable to the craft as such as general collective bargaining agreements do.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 21, \"start\": 308.608, \"end\": 320.188, \"text\": \"The statute specifically limits a “checkoff” agreement to the members in the organization and doesn't apply generally to the craft as such.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 22, \"start\": 320.188, \"end\": 338.552, \"text\": \"For example, absent a union shop contract, the Brotherhood of Railroad Trainmen may represent the craft of Trainmen on the Southern Pacific Railroad.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 23, \"start\": 338.552, \"end\": 348.959, \"text\": \"That craft of Trainmen so represented will be bound by collective bargaining contracts made in it -- their behalf by the Brotherhood of Railroad Trainmen.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 24, \"start\": 348.959, \"end\": 356.782, \"text\": \"However, among the craft, there may be a number who do not belong to either the Brotherhood of Railroad Trainmen or any railroad organization.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 25, \"start\": 356.782, \"end\": 360.916, \"text\": \"We'll recess now, Mr. --\", \"confidence\": 1.0, \"speaker\": 0}], \"metadata\": {\"created_at\": \"2026-09-19T23:15:03.612939+00:00\", \"processed_at\": \"2026-09-19T23:15:03.612939+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 26, \"speakers\": {\"0\": \"Earl Warren\", \"1\": \"Hugo L. Black\", \"2\": \"Felix Frankfurter\", \"3\": \"William O. Douglas\", \"4\": \"Tom C. Clark\", \"5\": \"John M. Harlan II\", \"6\": \"William J. Brennan, Jr.\", \"7\": \"Charles E. Whittaker\", \"8\": \"Potter Stewart\", \"9\": \"Harry E. Wilmarth\"}}}",
+      "encoding": "json",
+      "product": "court-transcript"
+    }
+  ],
+  "created_at": "2026-09-19T23:15:03.611394+00:00",
+  "extensions": [
+    "role",
+    "meta",
+    "wtf_transcription",
+    "lawful_basis"
+  ],
+  "subject": "Felter v. Southern Pacific Company (269) - Oral Argument - March 24, 1959 (Part 1)",
+  "updated_at": "2026-09-19T23:15:03.612939+00:00"
+}

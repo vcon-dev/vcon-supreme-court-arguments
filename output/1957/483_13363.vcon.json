@@ -1,1 +1,169 @@
-{"vcon": "0.4.0", "uuid": "01a0bbdf-fd6b-879d-9dd8-dd37220d739c", "parties": [{"name": "Earl Warren", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/earl_warren", "title": "Chief Justice of the United States"}}, {"name": "Hugo L. Black", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/hugo_l_black", "title": "Associate Justice"}}, {"name": "Felix Frankfurter", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/felix_frankfurter", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William O. Douglas", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_o_douglas", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Harold Burton", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/harold_burton", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Tom C. Clark", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/tom_c_clark", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "John M. Harlan II", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/john_m_harlan2", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William J. Brennan, Jr.", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_j_brennan_jr", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Charles E. Whittaker", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/charles_e_whittaker", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Mr. Attorney General", "role": "speaker", "meta": {"oyez": "https://api.oyez.org/people/attorney_general"}}], "dialog": [{"type": "recording", "start": "1958-04-08T00:00:00+00:00", "parties": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "mediatype": "audio/mpeg", "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1957/483/19580408a_483.delivery.mp3", "duration": 277.811, "meta": {"oyez_media_id": 13363, "source": "oyez", "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"}, "metadata": {"oyez_media_id": 13363, "source": "oyez"}}], "attachments": [{"purpose": "case_metadata", "body": "{\"docket_number\": \"483\", \"additional_docket_numbers\": null, \"term\": \"1957\", \"first_party\": \"Speiser\", \"first_party_label\": \"Appellant\", \"second_party\": \"Randall\", \"second_party_label\": \"Appellee\", \"manner_of_jurisdiction\": \"Appeal\", \"lower_court\": null, \"argued\": [\"1958-04-08T06:00:00Z\", \"1958-04-09T06:00:00Z\"], \"question\": \"\", \"facts_of_the_case\": \"\", \"conclusion\": \"\", \"citation\": {\"volume\": \"357\", \"page\": \"513\", \"year\": \"1958\", \"href\": \"https://api.oyez.org/case_citation/case_citation/24370\"}, \"oyez_url\": \"https://api.oyez.org/cases/1957/483\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/357/513/\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T22:53:33.931616+00:00"}, {"purpose": "tags", "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1957\", \"docket\": \"483\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T22:53:33.931616+00:00"}, {"purpose": "lawful_basis", "encoding": "json", "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-19T22:53:33.932384+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-19T22:53:33.932384+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-19T22:53:33.932384+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-19T22:53:33.932384+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-19T22:53:33.932384+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}", "party": 0, "dialog": 0, "start": "2026-09-19T22:53:33.931616+00:00"}, {"purpose": "ingress_info", "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-19T22:53:33.932384+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1957/483\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/13363\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T22:53:33.931616+00:00"}], "analysis": [{"type": "wtf_transcription", "dialog": 0, "vendor": "oyez", "body": "{\"transcript\": {\"text\": \"Number 483 and 484, Lawrence Speiser against Randall, and Prince against the City and County of San Francisco. These cases involved the same constitutional provision, Article 20, Section 19 of the California Constitution and Revenue and Taxation Code Section 32. The issues in these cases are exactly the same as the preceding cases with the exception that it does not involve a question of freedom of religion or establishment of religion nor is there an organizational question involved. We are dealing with a privilege. There is no question about that. We aren't saying that there is a right to an exemption and even historically, we will not find the same granting of exemption for veterans in this area as it has been granted to churches. I like to suggest that there's a classification -- distinction that should be made between exemptions, hence, they are given and when you take an exemption away. For example, it will not be proper, it would seem to me, to grant an exemption of any kind to redheads, Republicans or adulterers. But if you grant exemptions to the general public, it may be bad and it would be bad to take away exemptions or to exclude from exemptions in general, redheads, churches with red-headed ministers or Republicans or adulterers. Now, I am basing my argument on a broader scale than the preceding counsel. I contend that we do have an issue, the constitutional amendment. We have it in issue for several reasons. We have it in issue because the State Supreme Court construed it, interpret it and in its findings on free speech question, it was talking about the constitutional amendment. We have it in issue because the State Supreme Court said it was self-executing. It was mandatory. It was prohibitory. It applied to all exemptions in the State. And it -- and it said that Revenue and Taxation Code Section 32 was merely a procedural device. Would you mind indicating in a word why the householder's exemption was -- Excluded? -- excluded. The Supreme Court, the State Supreme Court indicated that it was left out for administrative difficulties. Too many? Too many. It encompassed too many people. The -- the dissenter suggested, \u201cWell, this would be all the more reason for including them if you were concerned with the -- protecting some vital interest of the State that you would want to extend it as broad as possible.\u201d Then the legislative entirely is in (Inaudible) Apparently not. Now, I concede to the fact that advocates in this area are not in the same class as redheads as I suggested. But in determining the validity of this and the purpose, we have to look at two purposes. One, the purpose of the exemption, it's the Article 20, the constitutional amendment itself. And then secondly, we have to consider the purposes of all exemptions and see whether there is a broad overall purpose. Now, the -- How long has it been (Inaudible) I believe -- it -- it covers specifically all words that have existed since the California was in existence. Now, I'm not sure when it first came into existence, but it states veterans of these wars and it -- it goes on down and numbered them and then it's amended usually to include new words as -- as the situation arises.\", \"language\": \"en\", \"duration\": 277.811, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 33.035, \"text\": \"Number 483 and 484, Lawrence Speiser against Randall, and Prince against the City and County of San Francisco.\", \"confidence\": 1.0, \"speaker\": 1}, {\"id\": 1, \"start\": 33.035, \"end\": 45.067, \"text\": \"These cases involved the same constitutional provision, Article 20, Section 19 of the California Constitution and Revenue and Taxation Code Section 32.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 2, \"start\": 45.067, \"end\": 61.761, \"text\": \"The issues in these cases are exactly the same as the preceding cases with the exception that it does not involve a question of freedom of religion or establishment of religion nor is there an organizational question involved.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 61.761, \"end\": 64.933, \"text\": \"We are dealing with a privilege.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 64.933, \"end\": 66.967, \"text\": \"There is no question about that.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 66.967, \"end\": 82.635, \"text\": \"We aren't saying that there is a right to an exemption and even historically, we will not find the same granting of exemption for veterans in this area as it has been granted to churches.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 82.635, \"end\": 94.011, \"text\": \"I like to suggest that there's a classification -- distinction that should be made between exemptions, hence, they are given and when you take an exemption away.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 94.011, \"end\": 104.226, \"text\": \"For example, it will not be proper, it would seem to me, to grant an exemption of any kind to redheads, Republicans or adulterers.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 104.226, \"end\": 122.303, \"text\": \"But if you grant exemptions to the general public, it may be bad and it would be bad to take away exemptions or to exclude from exemptions in general, redheads, churches with red-headed ministers or Republicans or adulterers.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 122.303, \"end\": 131.112, \"text\": \"Now, I am basing my argument on a broader scale than the preceding counsel.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 131.112, \"end\": 136.958, \"text\": \"I contend that we do have an issue, the constitutional amendment.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 11, \"start\": 136.958, \"end\": 139.673, \"text\": \"We have it in issue for several reasons.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 139.673, \"end\": 152.652, \"text\": \"We have it in issue because the State Supreme Court construed it, interpret it and in its findings on free speech question, it was talking about the constitutional amendment.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 152.652, \"end\": 156.961, \"text\": \"We have it in issue because the State Supreme Court said it was self-executing.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 156.961, \"end\": 157.88, \"text\": \"It was mandatory.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 157.88, \"end\": 159.295, \"text\": \"It was prohibitory.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 16, \"start\": 159.295, \"end\": 162.299, \"text\": \"It applied to all exemptions in the State.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 17, \"start\": 162.299, \"end\": 170.053, \"text\": \"And it -- and it said that Revenue and Taxation Code Section 32 was merely a procedural device.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 18, \"start\": 170.053, \"end\": 177.207, \"text\": \"Would you mind indicating in a word why the householder's exemption was --\", \"confidence\": 1.0, \"speaker\": 2}, {\"id\": 19, \"start\": 177.207, \"end\": 178.423, \"text\": \"Excluded?\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 20, \"start\": 178.423, \"end\": 179.189, \"text\": \"-- excluded.\", \"confidence\": 1.0, \"speaker\": 2}, {\"id\": 21, \"start\": 179.189, \"end\": 185.018, \"text\": \"The Supreme Court, the State Supreme Court indicated that it was left out for administrative difficulties.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 22, \"start\": 185.018, \"end\": 185.735, \"text\": \"Too many?\", \"confidence\": 1.0, \"speaker\": 2}, {\"id\": 23, \"start\": 185.735, \"end\": 186.322, \"text\": \"Too many.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 24, \"start\": 186.322, \"end\": 188.456, \"text\": \"It encompassed too many people.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 25, \"start\": 188.456, \"end\": 200.549, \"text\": \"The -- the dissenter suggested, \u201cWell, this would be all the more reason for including them if you were concerned with the -- protecting some vital interest of the State that you would want to extend it as broad as possible.\u201d\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 26, \"start\": 200.549, \"end\": 207.547, \"text\": \"Then the legislative entirely is in (Inaudible)\", \"confidence\": 1.0, \"speaker\": 2}, {\"id\": 27, \"start\": 207.547, \"end\": 213.453, \"text\": \"Apparently not.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 28, \"start\": 213.453, \"end\": 222.93, \"text\": \"Now, I concede to the fact that advocates in this area are not in the same class as redheads as I suggested.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 29, \"start\": 222.93, \"end\": 231.577, \"text\": \"But in determining the validity of this and the purpose, we have to look at two purposes.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 30, \"start\": 231.577, \"end\": 237.811, \"text\": \"One, the purpose of the exemption, it's the Article 20, the constitutional amendment itself.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 31, \"start\": 237.811, \"end\": 245.763, \"text\": \"And then secondly, we have to consider the purposes of all exemptions and see whether there is a broad overall purpose.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 32, \"start\": 245.763, \"end\": 246.623, \"text\": \"Now, the --\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 33, \"start\": 246.623, \"end\": 252.013, \"text\": \"How long has it been (Inaudible)\", \"confidence\": 1.0, \"speaker\": 7}, {\"id\": 34, \"start\": 252.013, \"end\": 261.74, \"text\": \"I believe -- it -- it covers specifically all words that have existed since the California was in existence.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 35, \"start\": 261.74, \"end\": 277.811, \"text\": \"Now, I'm not sure when it first came into existence, but it states veterans of these wars and it -- it goes on down and numbered them and then it's amended usually to include new words as -- as the situation arises.\", \"confidence\": 1.0, \"speaker\": 9}], \"metadata\": {\"created_at\": \"2026-09-19T22:53:33.932384+00:00\", \"processed_at\": \"2026-09-19T22:53:33.932384+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 36, \"speakers\": {\"0\": \"Earl Warren\", \"1\": \"Hugo L. Black\", \"2\": \"Felix Frankfurter\", \"3\": \"William O. Douglas\", \"4\": \"Harold Burton\", \"5\": \"Tom C. Clark\", \"6\": \"John M. Harlan II\", \"7\": \"William J. Brennan, Jr.\", \"8\": \"Charles E. Whittaker\", \"9\": \"Mr. Attorney General\"}}}", "encoding": "json", "product": "court-transcript"}], "created_at": "2026-09-19T22:53:33.931616+00:00", "extensions": ["role", "meta", "wtf_transcription", "lawful_basis"], "subject": "Speiser v. Randall (483) - Oral Argument - April 08, 1958", "updated_at": "2026-09-19T22:53:33.932384+00:00"}
+{
+  "vcon": "0.4.0",
+  "uuid": "01a0bbdf-fd6b-879d-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Earl Warren",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/earl_warren",
+        "title": "Chief Justice of the United States"
+      }
+    },
+    {
+      "name": "Hugo L. Black",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/hugo_l_black",
+        "title": "Associate Justice"
+      }
+    },
+    {
+      "name": "Felix Frankfurter",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/felix_frankfurter",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William O. Douglas",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_o_douglas",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Harold Burton",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/harold_burton",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Tom C. Clark",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/tom_c_clark",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "John M. Harlan II",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/john_m_harlan2",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William J. Brennan, Jr.",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_j_brennan_jr",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Charles E. Whittaker",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/charles_e_whittaker",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Mr. Attorney General",
+      "role": "speaker",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/attorney_general"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "1958-04-08T00:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mediatype": "audio/mpeg",
+      "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1957/483/19580408a_483.delivery.mp3",
+      "duration": 277.811,
+      "meta": {
+        "oyez_media_id": 13363,
+        "source": "oyez",
+        "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"
+      },
+      "metadata": {
+        "oyez_media_id": 13363,
+        "source": "oyez"
+      },
+      "content_hash": "sha512-4f0oJzqd3Fej-JalBc4QL0LX7sib_V_J2gQQK1EybeW3A48FvXDWCOuFdj1yRY92uOtoPcTvcW6f-ZizVsUQXA"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "case_metadata",
+      "body": "{\"docket_number\": \"483\", \"additional_docket_numbers\": null, \"term\": \"1957\", \"first_party\": \"Speiser\", \"first_party_label\": \"Appellant\", \"second_party\": \"Randall\", \"second_party_label\": \"Appellee\", \"manner_of_jurisdiction\": \"Appeal\", \"lower_court\": null, \"argued\": [\"1958-04-08T06:00:00Z\", \"1958-04-09T06:00:00Z\"], \"question\": \"\", \"facts_of_the_case\": \"\", \"conclusion\": \"\", \"citation\": {\"volume\": \"357\", \"page\": \"513\", \"year\": \"1958\", \"href\": \"https://api.oyez.org/case_citation/case_citation/24370\"}, \"oyez_url\": \"https://api.oyez.org/cases/1957/483\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/357/513/\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T22:53:33.931616+00:00"
+    },
+    {
+      "purpose": "tags",
+      "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1957\", \"docket\": \"483\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T22:53:33.931616+00:00"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-19T22:53:33.932384+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-19T22:53:33.932384+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-19T22:53:33.932384+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-19T22:53:33.932384+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-19T22:53:33.932384+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T22:53:33.931616+00:00"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-19T22:53:33.932384+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1957/483\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/13363\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T22:53:33.931616+00:00"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "oyez",
+      "body": "{\"transcript\": {\"text\": \"Number 483 and 484, Lawrence Speiser against Randall, and Prince against the City and County of San Francisco. These cases involved the same constitutional provision, Article 20, Section 19 of the California Constitution and Revenue and Taxation Code Section 32. The issues in these cases are exactly the same as the preceding cases with the exception that it does not involve a question of freedom of religion or establishment of religion nor is there an organizational question involved. We are dealing with a privilege. There is no question about that. We aren't saying that there is a right to an exemption and even historically, we will not find the same granting of exemption for veterans in this area as it has been granted to churches. I like to suggest that there's a classification -- distinction that should be made between exemptions, hence, they are given and when you take an exemption away. For example, it will not be proper, it would seem to me, to grant an exemption of any kind to redheads, Republicans or adulterers. But if you grant exemptions to the general public, it may be bad and it would be bad to take away exemptions or to exclude from exemptions in general, redheads, churches with red-headed ministers or Republicans or adulterers. Now, I am basing my argument on a broader scale than the preceding counsel. I contend that we do have an issue, the constitutional amendment. We have it in issue for several reasons. We have it in issue because the State Supreme Court construed it, interpret it and in its findings on free speech question, it was talking about the constitutional amendment. We have it in issue because the State Supreme Court said it was self-executing. It was mandatory. It was prohibitory. It applied to all exemptions in the State. And it -- and it said that Revenue and Taxation Code Section 32 was merely a procedural device. Would you mind indicating in a word why the householder's exemption was -- Excluded? -- excluded. The Supreme Court, the State Supreme Court indicated that it was left out for administrative difficulties. Too many? Too many. It encompassed too many people. The -- the dissenter suggested, “Well, this would be all the more reason for including them if you were concerned with the -- protecting some vital interest of the State that you would want to extend it as broad as possible.” Then the legislative entirely is in (Inaudible) Apparently not. Now, I concede to the fact that advocates in this area are not in the same class as redheads as I suggested. But in determining the validity of this and the purpose, we have to look at two purposes. One, the purpose of the exemption, it's the Article 20, the constitutional amendment itself. And then secondly, we have to consider the purposes of all exemptions and see whether there is a broad overall purpose. Now, the -- How long has it been (Inaudible) I believe -- it -- it covers specifically all words that have existed since the California was in existence. Now, I'm not sure when it first came into existence, but it states veterans of these wars and it -- it goes on down and numbered them and then it's amended usually to include new words as -- as the situation arises.\", \"language\": \"en\", \"duration\": 277.811, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 33.035, \"text\": \"Number 483 and 484, Lawrence Speiser against Randall, and Prince against the City and County of San Francisco.\", \"confidence\": 1.0, \"speaker\": 1}, {\"id\": 1, \"start\": 33.035, \"end\": 45.067, \"text\": \"These cases involved the same constitutional provision, Article 20, Section 19 of the California Constitution and Revenue and Taxation Code Section 32.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 2, \"start\": 45.067, \"end\": 61.761, \"text\": \"The issues in these cases are exactly the same as the preceding cases with the exception that it does not involve a question of freedom of religion or establishment of religion nor is there an organizational question involved.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 61.761, \"end\": 64.933, \"text\": \"We are dealing with a privilege.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 64.933, \"end\": 66.967, \"text\": \"There is no question about that.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 66.967, \"end\": 82.635, \"text\": \"We aren't saying that there is a right to an exemption and even historically, we will not find the same granting of exemption for veterans in this area as it has been granted to churches.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 82.635, \"end\": 94.011, \"text\": \"I like to suggest that there's a classification -- distinction that should be made between exemptions, hence, they are given and when you take an exemption away.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 94.011, \"end\": 104.226, \"text\": \"For example, it will not be proper, it would seem to me, to grant an exemption of any kind to redheads, Republicans or adulterers.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 104.226, \"end\": 122.303, \"text\": \"But if you grant exemptions to the general public, it may be bad and it would be bad to take away exemptions or to exclude from exemptions in general, redheads, churches with red-headed ministers or Republicans or adulterers.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 122.303, \"end\": 131.112, \"text\": \"Now, I am basing my argument on a broader scale than the preceding counsel.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 131.112, \"end\": 136.958, \"text\": \"I contend that we do have an issue, the constitutional amendment.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 11, \"start\": 136.958, \"end\": 139.673, \"text\": \"We have it in issue for several reasons.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 139.673, \"end\": 152.652, \"text\": \"We have it in issue because the State Supreme Court construed it, interpret it and in its findings on free speech question, it was talking about the constitutional amendment.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 152.652, \"end\": 156.961, \"text\": \"We have it in issue because the State Supreme Court said it was self-executing.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 156.961, \"end\": 157.88, \"text\": \"It was mandatory.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 157.88, \"end\": 159.295, \"text\": \"It was prohibitory.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 16, \"start\": 159.295, \"end\": 162.299, \"text\": \"It applied to all exemptions in the State.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 17, \"start\": 162.299, \"end\": 170.053, \"text\": \"And it -- and it said that Revenue and Taxation Code Section 32 was merely a procedural device.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 18, \"start\": 170.053, \"end\": 177.207, \"text\": \"Would you mind indicating in a word why the householder's exemption was --\", \"confidence\": 1.0, \"speaker\": 2}, {\"id\": 19, \"start\": 177.207, \"end\": 178.423, \"text\": \"Excluded?\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 20, \"start\": 178.423, \"end\": 179.189, \"text\": \"-- excluded.\", \"confidence\": 1.0, \"speaker\": 2}, {\"id\": 21, \"start\": 179.189, \"end\": 185.018, \"text\": \"The Supreme Court, the State Supreme Court indicated that it was left out for administrative difficulties.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 22, \"start\": 185.018, \"end\": 185.735, \"text\": \"Too many?\", \"confidence\": 1.0, \"speaker\": 2}, {\"id\": 23, \"start\": 185.735, \"end\": 186.322, \"text\": \"Too many.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 24, \"start\": 186.322, \"end\": 188.456, \"text\": \"It encompassed too many people.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 25, \"start\": 188.456, \"end\": 200.549, \"text\": \"The -- the dissenter suggested, “Well, this would be all the more reason for including them if you were concerned with the -- protecting some vital interest of the State that you would want to extend it as broad as possible.”\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 26, \"start\": 200.549, \"end\": 207.547, \"text\": \"Then the legislative entirely is in (Inaudible)\", \"confidence\": 1.0, \"speaker\": 2}, {\"id\": 27, \"start\": 207.547, \"end\": 213.453, \"text\": \"Apparently not.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 28, \"start\": 213.453, \"end\": 222.93, \"text\": \"Now, I concede to the fact that advocates in this area are not in the same class as redheads as I suggested.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 29, \"start\": 222.93, \"end\": 231.577, \"text\": \"But in determining the validity of this and the purpose, we have to look at two purposes.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 30, \"start\": 231.577, \"end\": 237.811, \"text\": \"One, the purpose of the exemption, it's the Article 20, the constitutional amendment itself.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 31, \"start\": 237.811, \"end\": 245.763, \"text\": \"And then secondly, we have to consider the purposes of all exemptions and see whether there is a broad overall purpose.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 32, \"start\": 245.763, \"end\": 246.623, \"text\": \"Now, the --\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 33, \"start\": 246.623, \"end\": 252.013, \"text\": \"How long has it been (Inaudible)\", \"confidence\": 1.0, \"speaker\": 7}, {\"id\": 34, \"start\": 252.013, \"end\": 261.74, \"text\": \"I believe -- it -- it covers specifically all words that have existed since the California was in existence.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 35, \"start\": 261.74, \"end\": 277.811, \"text\": \"Now, I'm not sure when it first came into existence, but it states veterans of these wars and it -- it goes on down and numbered them and then it's amended usually to include new words as -- as the situation arises.\", \"confidence\": 1.0, \"speaker\": 9}], \"metadata\": {\"created_at\": \"2026-09-19T22:53:33.932384+00:00\", \"processed_at\": \"2026-09-19T22:53:33.932384+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 36, \"speakers\": {\"0\": \"Earl Warren\", \"1\": \"Hugo L. Black\", \"2\": \"Felix Frankfurter\", \"3\": \"William O. Douglas\", \"4\": \"Harold Burton\", \"5\": \"Tom C. Clark\", \"6\": \"John M. Harlan II\", \"7\": \"William J. Brennan, Jr.\", \"8\": \"Charles E. Whittaker\", \"9\": \"Mr. Attorney General\"}}}",
+      "encoding": "json",
+      "product": "court-transcript"
+    }
+  ],
+  "created_at": "2026-09-19T22:53:33.931616+00:00",
+  "extensions": [
+    "role",
+    "meta",
+    "wtf_transcription",
+    "lawful_basis"
+  ],
+  "subject": "Speiser v. Randall (483) - Oral Argument - April 08, 1958",
+  "updated_at": "2026-09-19T22:53:33.932384+00:00"
+}
