@@ -1,1 +1,169 @@
-{"vcon": "0.4.0", "uuid": "01a0bbfb-0442-87ae-9dd8-dd37220d739c", "parties": [{"name": "Earl Warren", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/earl_warren", "title": "Chief Justice of the United States"}}, {"name": "Hugo L. Black", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/hugo_l_black", "title": "Associate Justice"}}, {"name": "Felix Frankfurter", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/felix_frankfurter", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William O. Douglas", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_o_douglas", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Tom C. Clark", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/tom_c_clark", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "John M. Harlan II", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/john_m_harlan2", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William J. Brennan, Jr.", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_j_brennan_jr", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Charles E. Whittaker", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/charles_e_whittaker", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Potter Stewart", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/potter_stewart", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Donald Page Moore", "role": "speaker", "meta": {"oyez": "https://api.oyez.org/people/donald_page_moore"}}], "dialog": [{"type": "recording", "start": "1960-11-08T00:00:00+00:00", "parties": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "mediatype": "audio/mpeg", "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1960/39/19601108a_39_part1.delivery.mp3", "duration": 211.861, "meta": {"oyez_media_id": 14712, "source": "oyez", "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"}, "metadata": {"oyez_media_id": 14712, "source": "oyez"}}], "attachments": [{"purpose": "case_metadata", "body": "{\"docket_number\": \"39\", \"additional_docket_numbers\": null, \"term\": \"1960\", \"first_party\": \"James Monroe, et al.\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Frank Pape, et al.\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"United States Court of Appeals for the Seventh Circuit\", \"argued\": [\"1960-11-08T06:00:00Z\"], \"question\": \"<p>1. Does a person have a valid cause of action under the Civil Rights Act against police officers when the police officers violate that person's due process?</p>\\n<p>2. Can municipalities be liable under the Civil Rights Act?</p>\\n\", \"facts_of_the_case\": \"<p>On October 29, 1958, thirteen police officers, including Frank Pape, arrived at James Monroe's Chicago apartment at 5:45 A.M. The officers broke down the door, forced Monroe and his wife to stand naked in their living room, and ransacked the apartment. Afterwards, James Monroe was escorted to police quarters and held for ten hours on \\\"open\\\" charges while he was interrogated about a murder. The police did not have a warrant for the search or the arrest, and refused Monroe permission to call his attorney.</p>\\n<p>Monroe brought a complaint against each of the Chicago police officers individually and against the City of Chicago. The City of Chicago moved to dismiss the complaint on the ground that it was not liable under the Civil Rights Act nor for acts committed in performance of governmental functions. All defendants moved to dismiss, arguing that there was no cause of action under the Civil Rights Acts. The district court dismissed the complaint. The United States Court of Appeals for the 7th Circuit affirmed the district court's dismissal.</p>\\n\", \"conclusion\": \"<p>Yes and No. Justice William O. Douglas, writing for the majority, stated that the city police officers, in conducting an unreasonable search and seizure, had committed an action which was under the color of law, and that the police could be held liable individually under the Civil Rights Act. However, the majority further held that a municipality could not be liable under the Civil Rights Act. So, the court reversed the lower court's opinion insofar as it dismissed the Civil Rights Act claim against the police officers.</p>\\n<p>Justice John Marshall Harlan II wrote a concurring opinion which Justice Potter Stewart joined. In his opinion, Justice Harlan discussed the difficulties in explaining the distinction between authorized or unauthorized deprivations of constitutional rights.</p>\\n<p>Justice Felix Frankfurter wrote a dissent arguing that a police officer who acts outside the law loses his authority under the law, making a state tort claim against individual officers more appropriate than a claim under the Civil Rights Act.</p>\\n\", \"citation\": {\"volume\": \"365\", \"page\": \"167\", \"year\": \"1961\", \"href\": \"https://api.oyez.org/case_citation/case_citation/24905\"}, \"oyez_url\": \"https://api.oyez.org/cases/1960/39\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/365/167/\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:23:05.154547+00:00"}, {"purpose": "tags", "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1960\", \"docket\": \"39\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:23:05.154547+00:00"}, {"purpose": "lawful_basis", "encoding": "json", "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:05.156944+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:05.156944+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:05.156944+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:05.156944+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:05.156944+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}", "party": 0, "dialog": 0, "start": "2026-09-19T23:23:05.154547+00:00"}, {"purpose": "ingress_info", "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-19T23:23:05.156944+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1960/39\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/14712\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:23:05.154547+00:00"}], "analysis": [{"type": "wtf_transcription", "dialog": 0, "vendor": "oyez", "body": "{\"transcript\": {\"text\": \"Number 39, James Monroe et al. versus Frank Pape et al. Mr. Chief Justice -- Mr. Moore. -- may it please the Court. This case is here on a writ of certiorari to the U.S. Court of Appeals for the Seventh Circuit. Petitioners are seeking reversal of the judgment of that court which affirmed a judgment of the District Court for the Northern District of Illinois dismissing petitioner's complaint for damages, which alleged a violation of revised statute Section 1979, which is a portion of the Civil Rights Act of April 20th, 1871. Section 1979 of course, provides that every person who, acting under color of law, state law, violates the Federal Constitutional Rights of any other person within the jurisdiction of the United States, shall be liable in an action at law, suit in equity or other proper proceeding for relief. We invoked that statute in our complaint. We invoked that the -- the jurisdiction of the District Court under 28 U.S.C. Section 1343, subsection 3 which explicitly confers original jurisdiction in the Federal District Courts for actions of the type defined by revised statute Section 1979. The defendants move to dismiss our complaint on the ground that it failed to state a cause of action and the district judge allowed that motion dismissed, the Court of Appeals affirmed. The petitioners in this case are James Monroe, his wife Flossie Monroe, and their six children. Five of the children, I might add are named Stevens, they are the stepchildren of James Monroe, the children of Flossie Monroe by a prior marriage. All six children of course are the children of Flossie Monroe. The defendants here are Deputy Chief of Detectives Frank Pape of the Chicago Police Department, the second ranking officer in the Detective Bureau of the Chicago Police Department, 12 John Does whose names we did not know at the time of filing of the complaint, but whom we alleged were officers of the Detective Bureau acting under the orders of the Detective Bureau and of Deputy Chief Pape. Finally, the City of Chicago was named as a party defendant. The complaint which -- at least in its factual allegations must be taken as true here, I suppose, alleges the following facts. We'll recess now, Mr. Moore.\", \"language\": \"en\", \"duration\": 211.861, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 12.155, \"text\": \"Number 39, James Monroe et al. versus Frank Pape et al.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 12.155, \"end\": 13.534, \"text\": \"Mr. Chief Justice --\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 2, \"start\": 13.534, \"end\": 13.817, \"text\": \"Mr. Moore.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 3, \"start\": 13.817, \"end\": 17.213, \"text\": \"-- may it please the Court.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 17.213, \"end\": 25.107, \"text\": \"This case is here on a writ of certiorari to the U.S. Court of Appeals for the Seventh Circuit.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 25.107, \"end\": 60.437, \"text\": \"Petitioners are seeking reversal of the judgment of that court which affirmed a judgment of the District Court for the Northern District of Illinois dismissing petitioner's complaint for damages, which alleged a violation of revised statute Section 1979, which is a portion of the Civil Rights Act of April 20th, 1871.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 60.437, \"end\": 91.992, \"text\": \"Section 1979 of course, provides that every person who, acting under color of law, state law, violates the Federal Constitutional Rights of any other person within the jurisdiction of the United States, shall be liable in an action at law, suit in equity or other proper proceeding for relief.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 91.992, \"end\": 95.811, \"text\": \"We invoked that statute in our complaint.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 95.811, \"end\": 119.755, \"text\": \"We invoked that the -- the jurisdiction of the District Court under 28 U.S.C. Section 1343, subsection 3 which explicitly confers original jurisdiction in the Federal District Courts for actions of the type defined by revised statute Section 1979.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 119.755, \"end\": 133.16, \"text\": \"The defendants move to dismiss our complaint on the ground that it failed to state a cause of action and the district judge allowed that motion dismissed, the Court of Appeals affirmed.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 133.16, \"end\": 143.918, \"text\": \"The petitioners in this case are James Monroe, his wife Flossie Monroe, and their six children.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 11, \"start\": 143.918, \"end\": 154.148, \"text\": \"Five of the children, I might add are named Stevens, they are the stepchildren of James Monroe, the children of Flossie Monroe by a prior marriage.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 154.148, \"end\": 156.806, \"text\": \"All six children of course are the children of Flossie Monroe.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 156.806, \"end\": 185.723, \"text\": \"The defendants here are Deputy Chief of Detectives Frank Pape of the Chicago Police Department, the second ranking officer in the Detective Bureau of the Chicago Police Department, 12 John Does whose names we did not know at the time of filing of the complaint, but whom we alleged were officers of the Detective Bureau acting under the orders of the Detective Bureau and of Deputy Chief Pape.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 185.723, \"end\": 197.4, \"text\": \"Finally, the City of Chicago was named as a party defendant.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 197.4, \"end\": 208.704, \"text\": \"The complaint which -- at least in its factual allegations must be taken as true here, I suppose, alleges the following facts.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 16, \"start\": 208.704, \"end\": 211.861, \"text\": \"We'll recess now, Mr. Moore.\", \"confidence\": 1.0, \"speaker\": 0}], \"metadata\": {\"created_at\": \"2026-09-19T23:23:05.156944+00:00\", \"processed_at\": \"2026-09-19T23:23:05.156944+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 17, \"speakers\": {\"0\": \"Earl Warren\", \"1\": \"Hugo L. Black\", \"2\": \"Felix Frankfurter\", \"3\": \"William O. Douglas\", \"4\": \"Tom C. Clark\", \"5\": \"John M. Harlan II\", \"6\": \"William J. Brennan, Jr.\", \"7\": \"Charles E. Whittaker\", \"8\": \"Potter Stewart\", \"9\": \"Donald Page Moore\"}}}", "encoding": "json", "product": "court-transcript"}], "created_at": "2026-09-19T23:23:05.154547+00:00", "extensions": ["role", "meta", "wtf_transcription", "lawful_basis"], "subject": "Monroe v. Pape (39) - Oral Argument - November 08, 1960 (Part 1)", "updated_at": "2026-09-19T23:23:05.156944+00:00"}
+{
+  "vcon": "0.4.0",
+  "uuid": "01a0bbfb-0442-87ae-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Earl Warren",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/earl_warren",
+        "title": "Chief Justice of the United States"
+      }
+    },
+    {
+      "name": "Hugo L. Black",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/hugo_l_black",
+        "title": "Associate Justice"
+      }
+    },
+    {
+      "name": "Felix Frankfurter",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/felix_frankfurter",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William O. Douglas",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_o_douglas",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Tom C. Clark",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/tom_c_clark",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "John M. Harlan II",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/john_m_harlan2",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William J. Brennan, Jr.",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_j_brennan_jr",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Charles E. Whittaker",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/charles_e_whittaker",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Potter Stewart",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/potter_stewart",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Donald Page Moore",
+      "role": "speaker",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/donald_page_moore"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "1960-11-08T00:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mediatype": "audio/mpeg",
+      "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1960/39/19601108a_39_part1.delivery.mp3",
+      "duration": 211.861,
+      "meta": {
+        "oyez_media_id": 14712,
+        "source": "oyez",
+        "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"
+      },
+      "metadata": {
+        "oyez_media_id": 14712,
+        "source": "oyez"
+      },
+      "content_hash": "sha512-AruPFIuJewGT0EjeR51VkwQ1HEJRTeZ24SrPivSGXLyB-WNTppKU9OrPndRXiMBLJZIbyJ_yFHr32MyvZG9ZkA"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "case_metadata",
+      "body": "{\"docket_number\": \"39\", \"additional_docket_numbers\": null, \"term\": \"1960\", \"first_party\": \"James Monroe, et al.\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Frank Pape, et al.\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"United States Court of Appeals for the Seventh Circuit\", \"argued\": [\"1960-11-08T06:00:00Z\"], \"question\": \"<p>1. Does a person have a valid cause of action under the Civil Rights Act against police officers when the police officers violate that person's due process?</p>\\n<p>2. Can municipalities be liable under the Civil Rights Act?</p>\\n\", \"facts_of_the_case\": \"<p>On October 29, 1958, thirteen police officers, including Frank Pape, arrived at James Monroe's Chicago apartment at 5:45 A.M. The officers broke down the door, forced Monroe and his wife to stand naked in their living room, and ransacked the apartment. Afterwards, James Monroe was escorted to police quarters and held for ten hours on \\\"open\\\" charges while he was interrogated about a murder. The police did not have a warrant for the search or the arrest, and refused Monroe permission to call his attorney.</p>\\n<p>Monroe brought a complaint against each of the Chicago police officers individually and against the City of Chicago. The City of Chicago moved to dismiss the complaint on the ground that it was not liable under the Civil Rights Act nor for acts committed in performance of governmental functions. All defendants moved to dismiss, arguing that there was no cause of action under the Civil Rights Acts. The district court dismissed the complaint. The United States Court of Appeals for the 7th Circuit affirmed the district court's dismissal.</p>\\n\", \"conclusion\": \"<p>Yes and No. Justice William O. Douglas, writing for the majority, stated that the city police officers, in conducting an unreasonable search and seizure, had committed an action which was under the color of law, and that the police could be held liable individually under the Civil Rights Act. However, the majority further held that a municipality could not be liable under the Civil Rights Act. So, the court reversed the lower court's opinion insofar as it dismissed the Civil Rights Act claim against the police officers.</p>\\n<p>Justice John Marshall Harlan II wrote a concurring opinion which Justice Potter Stewart joined. In his opinion, Justice Harlan discussed the difficulties in explaining the distinction between authorized or unauthorized deprivations of constitutional rights.</p>\\n<p>Justice Felix Frankfurter wrote a dissent arguing that a police officer who acts outside the law loses his authority under the law, making a state tort claim against individual officers more appropriate than a claim under the Civil Rights Act.</p>\\n\", \"citation\": {\"volume\": \"365\", \"page\": \"167\", \"year\": \"1961\", \"href\": \"https://api.oyez.org/case_citation/case_citation/24905\"}, \"oyez_url\": \"https://api.oyez.org/cases/1960/39\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/365/167/\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:23:05.154547+00:00"
+    },
+    {
+      "purpose": "tags",
+      "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1960\", \"docket\": \"39\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:23:05.154547+00:00"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:05.156944+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:05.156944+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:05.156944+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:05.156944+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-19T23:23:05.156944+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:23:05.154547+00:00"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-19T23:23:05.156944+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1960/39\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/14712\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:23:05.154547+00:00"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "oyez",
+      "body": "{\"transcript\": {\"text\": \"Number 39, James Monroe et al. versus Frank Pape et al. Mr. Chief Justice -- Mr. Moore. -- may it please the Court. This case is here on a writ of certiorari to the U.S. Court of Appeals for the Seventh Circuit. Petitioners are seeking reversal of the judgment of that court which affirmed a judgment of the District Court for the Northern District of Illinois dismissing petitioner's complaint for damages, which alleged a violation of revised statute Section 1979, which is a portion of the Civil Rights Act of April 20th, 1871. Section 1979 of course, provides that every person who, acting under color of law, state law, violates the Federal Constitutional Rights of any other person within the jurisdiction of the United States, shall be liable in an action at law, suit in equity or other proper proceeding for relief. We invoked that statute in our complaint. We invoked that the -- the jurisdiction of the District Court under 28 U.S.C. Section 1343, subsection 3 which explicitly confers original jurisdiction in the Federal District Courts for actions of the type defined by revised statute Section 1979. The defendants move to dismiss our complaint on the ground that it failed to state a cause of action and the district judge allowed that motion dismissed, the Court of Appeals affirmed. The petitioners in this case are James Monroe, his wife Flossie Monroe, and their six children. Five of the children, I might add are named Stevens, they are the stepchildren of James Monroe, the children of Flossie Monroe by a prior marriage. All six children of course are the children of Flossie Monroe. The defendants here are Deputy Chief of Detectives Frank Pape of the Chicago Police Department, the second ranking officer in the Detective Bureau of the Chicago Police Department, 12 John Does whose names we did not know at the time of filing of the complaint, but whom we alleged were officers of the Detective Bureau acting under the orders of the Detective Bureau and of Deputy Chief Pape. Finally, the City of Chicago was named as a party defendant. The complaint which -- at least in its factual allegations must be taken as true here, I suppose, alleges the following facts. We'll recess now, Mr. Moore.\", \"language\": \"en\", \"duration\": 211.861, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 12.155, \"text\": \"Number 39, James Monroe et al. versus Frank Pape et al.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 12.155, \"end\": 13.534, \"text\": \"Mr. Chief Justice --\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 2, \"start\": 13.534, \"end\": 13.817, \"text\": \"Mr. Moore.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 3, \"start\": 13.817, \"end\": 17.213, \"text\": \"-- may it please the Court.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 17.213, \"end\": 25.107, \"text\": \"This case is here on a writ of certiorari to the U.S. Court of Appeals for the Seventh Circuit.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 25.107, \"end\": 60.437, \"text\": \"Petitioners are seeking reversal of the judgment of that court which affirmed a judgment of the District Court for the Northern District of Illinois dismissing petitioner's complaint for damages, which alleged a violation of revised statute Section 1979, which is a portion of the Civil Rights Act of April 20th, 1871.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 60.437, \"end\": 91.992, \"text\": \"Section 1979 of course, provides that every person who, acting under color of law, state law, violates the Federal Constitutional Rights of any other person within the jurisdiction of the United States, shall be liable in an action at law, suit in equity or other proper proceeding for relief.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 91.992, \"end\": 95.811, \"text\": \"We invoked that statute in our complaint.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 95.811, \"end\": 119.755, \"text\": \"We invoked that the -- the jurisdiction of the District Court under 28 U.S.C. Section 1343, subsection 3 which explicitly confers original jurisdiction in the Federal District Courts for actions of the type defined by revised statute Section 1979.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 119.755, \"end\": 133.16, \"text\": \"The defendants move to dismiss our complaint on the ground that it failed to state a cause of action and the district judge allowed that motion dismissed, the Court of Appeals affirmed.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 133.16, \"end\": 143.918, \"text\": \"The petitioners in this case are James Monroe, his wife Flossie Monroe, and their six children.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 11, \"start\": 143.918, \"end\": 154.148, \"text\": \"Five of the children, I might add are named Stevens, they are the stepchildren of James Monroe, the children of Flossie Monroe by a prior marriage.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 154.148, \"end\": 156.806, \"text\": \"All six children of course are the children of Flossie Monroe.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 156.806, \"end\": 185.723, \"text\": \"The defendants here are Deputy Chief of Detectives Frank Pape of the Chicago Police Department, the second ranking officer in the Detective Bureau of the Chicago Police Department, 12 John Does whose names we did not know at the time of filing of the complaint, but whom we alleged were officers of the Detective Bureau acting under the orders of the Detective Bureau and of Deputy Chief Pape.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 185.723, \"end\": 197.4, \"text\": \"Finally, the City of Chicago was named as a party defendant.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 197.4, \"end\": 208.704, \"text\": \"The complaint which -- at least in its factual allegations must be taken as true here, I suppose, alleges the following facts.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 16, \"start\": 208.704, \"end\": 211.861, \"text\": \"We'll recess now, Mr. Moore.\", \"confidence\": 1.0, \"speaker\": 0}], \"metadata\": {\"created_at\": \"2026-09-19T23:23:05.156944+00:00\", \"processed_at\": \"2026-09-19T23:23:05.156944+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 17, \"speakers\": {\"0\": \"Earl Warren\", \"1\": \"Hugo L. Black\", \"2\": \"Felix Frankfurter\", \"3\": \"William O. Douglas\", \"4\": \"Tom C. Clark\", \"5\": \"John M. Harlan II\", \"6\": \"William J. Brennan, Jr.\", \"7\": \"Charles E. Whittaker\", \"8\": \"Potter Stewart\", \"9\": \"Donald Page Moore\"}}}",
+      "encoding": "json",
+      "product": "court-transcript"
+    }
+  ],
+  "created_at": "2026-09-19T23:23:05.154547+00:00",
+  "extensions": [
+    "role",
+    "meta",
+    "wtf_transcription",
+    "lawful_basis"
+  ],
+  "subject": "Monroe v. Pape (39) - Oral Argument - November 08, 1960 (Part 1)",
+  "updated_at": "2026-09-19T23:23:05.156944+00:00"
+}

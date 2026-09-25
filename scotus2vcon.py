@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import functools
 import hashlib
 import json
 import logging
@@ -55,6 +56,29 @@ def content_hash_token(content: bytes) -> str:
     """`sha512-<base64url digest, unpadded>`, as core-02 requires."""
     digest = hashlib.sha512(content).digest()
     return "sha512-" + base64.urlsafe_b64encode(digest).decode().rstrip("=")
+
+
+HASH_CACHE_PATH = Path.home() / ".cache" / "vcon-data" / "hash-cache.jsonl"
+
+
+@functools.lru_cache(maxsize=1)
+def load_hash_cache() -> dict[str, str]:
+    """url -> content_hash, shared with `vcon-data migrate --hash-external` (same
+    JSONL, same format), so audio hashed there is never re-downloaded here."""
+    cache: dict[str, str] = {}
+    if not HASH_CACHE_PATH.exists():
+        return cache
+    for line in HASH_CACHE_PATH.read_text().splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            entry = json.loads(line)
+        except json.JSONDecodeError:
+            continue  # tolerate a partially-written last line from a concurrent writer
+        if entry.get("url") and entry.get("content_hash"):
+            cache[entry["url"]] = entry["content_hash"]
+    return cache
 
 
 class Oyez:
@@ -371,9 +395,9 @@ def convert_case(client: Oyez, case: dict, out_dir: Path, args) -> int:
             if a:  # advocates can hold nulls too
                 av.party(a.get("advocate"), "advocate", a.get("advocate_description"))
 
-        content_hash = None
+        content_hash = load_hash_cache().get(media["href"])
         audio_path = HERE / "downloads" / "audio" / str(term) / Path(media["href"]).name
-        need_audio = args.hash_audio
+        need_audio = args.hash_audio and content_hash is None
         transcript_json = audio.get("transcript")
         if not transcript_json or not transcript_json.get("sections"):
             need_audio = True

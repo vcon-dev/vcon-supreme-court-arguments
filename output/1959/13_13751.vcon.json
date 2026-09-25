@@ -1,1 +1,169 @@
-{"vcon": "0.4.0", "uuid": "01a0bbf6-3c44-8306-9dd8-dd37220d739c", "parties": [{"name": "Earl Warren", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/earl_warren", "title": "Chief Justice of the United States"}}, {"name": "Hugo L. Black", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/hugo_l_black", "title": "Associate Justice"}}, {"name": "Felix Frankfurter", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/felix_frankfurter", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William O. Douglas", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_o_douglas", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Tom C. Clark", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/tom_c_clark", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "John M. Harlan II", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/john_m_harlan2", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "William J. Brennan, Jr.", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/william_j_brennan_jr", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Charles E. Whittaker", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/charles_e_whittaker", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Potter Stewart", "role": "justice", "meta": {"oyez": "https://api.oyez.org/people/potter_stewart", "title": "Associate Justice of the Supreme Court of the United States"}}, {"name": "Fred N. Acker", "role": "speaker", "meta": {"oyez": "https://api.oyez.org/people/fred_n_acker"}}], "dialog": [{"type": "recording", "start": "1959-10-19T00:00:00+00:00", "parties": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], "mediatype": "audio/mpeg", "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1959/13/19591019a_13_part2.delivery.mp3", "duration": 310.115, "meta": {"oyez_media_id": 13751, "source": "oyez", "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"}, "metadata": {"oyez_media_id": 13751, "source": "oyez"}}], "attachments": [{"purpose": "case_metadata", "body": "{\"docket_number\": \"13\", \"additional_docket_numbers\": null, \"term\": \"1959\", \"first_party\": \"Commissioner of Internal Revenue\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Acker\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"United States Court of Appeals for the Sixth Circuit\", \"argued\": [\"1959-10-19T05:00:00Z\"], \"question\": \"\", \"facts_of_the_case\": \"\", \"conclusion\": \"\", \"citation\": {\"volume\": \"361\", \"page\": \"87\", \"year\": \"1959\", \"href\": \"https://api.oyez.org/case_citation/case_citation/24655\"}, \"oyez_url\": \"https://api.oyez.org/cases/1959/13\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/361/87/\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:17:51.812250+00:00"}, {"purpose": "tags", "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1959\", \"docket\": \"13\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:17:51.812250+00:00"}, {"purpose": "lawful_basis", "encoding": "json", "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-19T23:17:51.813188+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-19T23:17:51.813188+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-19T23:17:51.813188+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-19T23:17:51.813188+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-19T23:17:51.813188+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}", "party": 0, "dialog": 0, "start": "2026-09-19T23:17:51.812250+00:00"}, {"purpose": "ingress_info", "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-19T23:17:51.813188+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1959/13\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/13751\"}", "encoding": "json", "party": 0, "dialog": 0, "start": "2026-09-19T23:17:51.812250+00:00"}], "analysis": [{"type": "wtf_transcription", "dialog": 0, "vendor": "oyez", "body": "{\"transcript\": {\"text\": \"-- you may -- you may proceed, Mr. Acker. If the Court please, I was -- at the recess I was taking what I thought was the very extravagant claim of the Government as to their right to tax and I was countering that with the famous statement that the power to tax is not the power to confiscate, and several other things that are associated with that which I think this Court is familiar with and therefore I will not digress to go into that. The question of the penalties was not even argued. It was not even mentioned so far as the oral argument was concerned and in the briefs, I think it was given three or four lines and I was greatly amazed when the opinion was handed down that the Court spent an extravagant amount of time almost in discussing this subject. I suppose their reason for this was that while they had agreed with me in principle in unmistakable language that the power of the Government to tax was not as extravagant as they claimed it was not as great as they claimed, they gave no relief on that subject. And I thought a leap, or in a summersault that was greater than any leap since Brodie jumped off the Brooklyn bridge, but they did though to a great extent to eluciate a little-- elucidate the -- their reasons for being with the respondent in that action. Now on the affirmative side of my case as to how I would interpret the statute, I think immediately upon reading it after looking at the context of it and format of the statute and the way it is set up and it provides one penalty for not doing a thing and another penalty for not doing a thing, but we have the classic interpretation, the express mention of one thing is the exclusion of another. Now if there was ever a classic principle of interpretation for statutes or for anything for that matter, it is that great principle. In other words where one thing is expressly mentioned that is conclusive and not only do we need to go to that most apparent and evident principle of interpretation, but we can -- we can almost go to Mathematics and in using the word Mathematics, I would direct the Court's attention that that is a branch of philosophy. In other words, the whole includes all of the parts. So when I fail to do one thing, it already included all of the parts. Now it seems to me this is so evident and so apparent on logic that I stand amazed that anyone should be contending to the contrary. Now the Government's counsel had said something about the history of this case and he thought from the history of the case, they should be sustained. Well now the very fact that it was constantly changed during these intervening years, the 1943 and on itself indicates that there was a freedom out of trouble with this and when the Congress' got to 1954, our present Revenue Act, they eliminated it entirely which shows the type of public opinion that was operating at that instance. Now therefore, I want to resume and sort it somehow. I therefore think on the constructive side that the ordinary principles of interpretation would show that it should not be enlarged. I try to show that there was no ambiguity if you will read the statutes. Plainly and unmistakably, there isn't a single ambiguity in it, and all that there is, is an omission and you cannot supply an omission. It was simply something that was overlooked (Inaudible). Now I've learned a very, very long time ago, Your Honor, when you have said what you wanted to say, it is a most excellent time to sit down.\", \"language\": \"en\", \"duration\": 310.115, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 11.674, \"text\": \"-- you may -- you may proceed, Mr. Acker.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 11.674, \"end\": 49.624, \"text\": \"If the Court please, I was -- at the recess I was taking what I thought was the very extravagant claim of the Government as to their right to tax and I was countering that with the famous statement that the power to tax is not the power to confiscate, and several other things that are associated with that which I think this Court is familiar with and therefore I will not digress to go into that.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 2, \"start\": 49.624, \"end\": 52.812, \"text\": \"The question of the penalties was not even argued.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 52.812, \"end\": 79.52, \"text\": \"It was not even mentioned so far as the oral argument was concerned and in the briefs, I think it was given three or four lines and I was greatly amazed when the opinion was handed down that the Court spent an extravagant amount of time almost in discussing this subject.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 79.52, \"end\": 98.387, \"text\": \"I suppose their reason for this was that while they had agreed with me in principle in unmistakable language that the power of the Government to tax was not as extravagant as they claimed it was not as great as they claimed, they gave no relief on that subject.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 98.387, \"end\": 124.298, \"text\": \"And I thought a leap, or in a summersault that was greater than any leap since Brodie jumped off the Brooklyn bridge, but they did though to a great extent to eluciate a little-- elucidate the -- their reasons for being with the respondent in that action.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 124.298, \"end\": 159.493, \"text\": \"Now on the affirmative side of my case as to how I would interpret the statute, I think immediately upon reading it after looking at the context of it and format of the statute and the way it is set up and it provides one penalty for not doing a thing and another penalty for not doing a thing, but we have the classic interpretation, the express mention of one thing is the exclusion of another.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 159.493, \"end\": 168.672, \"text\": \"Now if there was ever a classic principle of interpretation for statutes or for anything for that matter, it is that great principle.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 168.672, \"end\": 191.479, \"text\": \"In other words where one thing is expressly mentioned that is conclusive and not only do we need to go to that most apparent and evident principle of interpretation, but we can -- we can almost go to Mathematics and in using the word Mathematics, I would direct the Court's attention that that is a branch of philosophy.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 191.479, \"end\": 196.324, \"text\": \"In other words, the whole includes all of the parts.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 196.324, \"end\": 202.381, \"text\": \"So when I fail to do one thing, it already included all of the parts.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 11, \"start\": 202.381, \"end\": 212.062, \"text\": \"Now it seems to me this is so evident and so apparent on logic that I stand amazed that anyone should be contending to the contrary.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 212.062, \"end\": 220.838, \"text\": \"Now the Government's counsel had said something about the history of this case and he thought from the history of the case, they should be sustained.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 220.838, \"end\": 253.31, \"text\": \"Well now the very fact that it was constantly changed during these intervening years, the 1943 and on itself indicates that there was a freedom out of trouble with this and when the Congress' got to 1954, our present Revenue Act, they eliminated it entirely which shows the type of public opinion that was operating at that instance.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 253.31, \"end\": 262.817, \"text\": \"Now therefore, I want to resume and sort it somehow.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 262.817, \"end\": 273.533, \"text\": \"I therefore think on the constructive side that the ordinary principles of interpretation would show that it should not be enlarged.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 16, \"start\": 273.533, \"end\": 279.778, \"text\": \"I try to show that there was no ambiguity if you will read the statutes.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 17, \"start\": 279.778, \"end\": 292.035, \"text\": \"Plainly and unmistakably, there isn't a single ambiguity in it, and all that there is, is an omission and you cannot supply an omission.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 18, \"start\": 292.035, \"end\": 296.748, \"text\": \"It was simply something that was overlooked (Inaudible).\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 19, \"start\": 296.748, \"end\": 310.115, \"text\": \"Now I've learned a very, very long time ago, Your Honor, when you have said what you wanted to say, it is a most excellent time to sit down.\", \"confidence\": 1.0, \"speaker\": 9}], \"metadata\": {\"created_at\": \"2026-09-19T23:17:51.813188+00:00\", \"processed_at\": \"2026-09-19T23:17:51.813188+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 20, \"speakers\": {\"0\": \"Earl Warren\", \"1\": \"Hugo L. Black\", \"2\": \"Felix Frankfurter\", \"3\": \"William O. Douglas\", \"4\": \"Tom C. Clark\", \"5\": \"John M. Harlan II\", \"6\": \"William J. Brennan, Jr.\", \"7\": \"Charles E. Whittaker\", \"8\": \"Potter Stewart\", \"9\": \"Fred N. Acker\"}}}", "encoding": "json", "product": "court-transcript"}], "created_at": "2026-09-19T23:17:51.812250+00:00", "extensions": ["role", "meta", "wtf_transcription", "lawful_basis"], "subject": "Commissioner of Internal Revenue v. Acker (13) - Oral Argument - October 19, 1959 (Part 2)", "updated_at": "2026-09-19T23:17:51.813188+00:00"}
+{
+  "vcon": "0.4.0",
+  "uuid": "01a0bbf6-3c44-8306-9dd8-dd37220d739c",
+  "parties": [
+    {
+      "name": "Earl Warren",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/earl_warren",
+        "title": "Chief Justice of the United States"
+      }
+    },
+    {
+      "name": "Hugo L. Black",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/hugo_l_black",
+        "title": "Associate Justice"
+      }
+    },
+    {
+      "name": "Felix Frankfurter",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/felix_frankfurter",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William O. Douglas",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_o_douglas",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Tom C. Clark",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/tom_c_clark",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "John M. Harlan II",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/john_m_harlan2",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "William J. Brennan, Jr.",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/william_j_brennan_jr",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Charles E. Whittaker",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/charles_e_whittaker",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Potter Stewart",
+      "role": "justice",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/potter_stewart",
+        "title": "Associate Justice of the Supreme Court of the United States"
+      }
+    },
+    {
+      "name": "Fred N. Acker",
+      "role": "speaker",
+      "meta": {
+        "oyez": "https://api.oyez.org/people/fred_n_acker"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "1959-10-19T00:00:00+00:00",
+      "parties": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mediatype": "audio/mpeg",
+      "url": "https://s3.amazonaws.com/oyez.case-media.mp3/case_data/1959/13/19591019a_13_part2.delivery.mp3",
+      "duration": 310.115,
+      "meta": {
+        "oyez_media_id": 13751,
+        "source": "oyez",
+        "content_hash_note": "audio not fetched; rerun with --hash-audio to add content_hash"
+      },
+      "metadata": {
+        "oyez_media_id": 13751,
+        "source": "oyez"
+      },
+      "content_hash": "sha512-L12VJYfb5XssAcnW7jxeeGl8vLH-MPRgCet6ViszI1DRNZuOs0l4sqghnp5-FQM8-xp4BwWW5l8ClY4B85tz7A"
+    }
+  ],
+  "attachments": [
+    {
+      "purpose": "case_metadata",
+      "body": "{\"docket_number\": \"13\", \"additional_docket_numbers\": null, \"term\": \"1959\", \"first_party\": \"Commissioner of Internal Revenue\", \"first_party_label\": \"Petitioner\", \"second_party\": \"Acker\", \"second_party_label\": \"Respondent\", \"manner_of_jurisdiction\": \"Writ of <i>certiorari</i>\", \"lower_court\": \"United States Court of Appeals for the Sixth Circuit\", \"argued\": [\"1959-10-19T05:00:00Z\"], \"question\": \"\", \"facts_of_the_case\": \"\", \"conclusion\": \"\", \"citation\": {\"volume\": \"361\", \"page\": \"87\", \"year\": \"1959\", \"href\": \"https://api.oyez.org/case_citation/case_citation/24655\"}, \"oyez_url\": \"https://api.oyez.org/cases/1959/13\", \"justia_url\": \"https://supreme.justia.com/cases/federal/us/361/87/\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:17:51.812250+00:00"
+    },
+    {
+      "purpose": "tags",
+      "body": "{\"source\": \"oyez\", \"court\": \"scotus\", \"term\": \"1959\", \"docket\": \"13\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:17:51.812250+00:00"
+    },
+    {
+      "purpose": "lawful_basis",
+      "encoding": "json",
+      "body": "{\"lawful_basis\": \"legitimate_interests\", \"expiration\": null, \"purpose_grants\": [{\"purpose\": \"recording\", \"granted\": true, \"granted_at\": \"2026-09-19T23:17:51.813188+00:00\"}, {\"purpose\": \"transcription\", \"granted\": true, \"granted_at\": \"2026-09-19T23:17:51.813188+00:00\"}, {\"purpose\": \"publication\", \"granted\": true, \"granted_at\": \"2026-09-19T23:17:51.813188+00:00\"}, {\"purpose\": \"archival\", \"granted\": true, \"granted_at\": \"2026-09-19T23:17:51.813188+00:00\"}, {\"purpose\": \"analysis\", \"granted\": true, \"granted_at\": \"2026-09-19T23:17:51.813188+00:00\"}], \"terms_of_service\": \"https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\", \"metadata\": {\"terms_of_service_name\": \"Supreme Court of the United States, Argument Audio\", \"jurisdiction\": \"US\", \"controller\": \"Supreme Court of the United States\", \"notes\": \"Oral argument audio and transcripts are public records the Court itself records and publishes. Oyez (Cornell LII / Justia / Chicago-Kent) redistributes them.\"}, \"proof_mechanisms\": [{\"mechanism_type\": \"external_system\", \"description\": \"Supreme Court of the United States argument audio archive, https://www.supremecourt.gov/oral_arguments/argument_audio.aspx\"}, {\"mechanism_type\": \"external_system\", \"description\": \"Oyez Project case record and media, https://api.oyez.org\"}]}",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:17:51.812250+00:00"
+    },
+    {
+      "purpose": "ingress_info",
+      "body": "{\"source\": \"scotus2vcon\", \"converter_version\": \"0.1.0\", \"converted_at\": \"2026-09-19T23:17:51.813188+00:00\", \"oyez_case\": \"https://api.oyez.org/cases/1959/13\", \"oyez_audio\": \"https://api.oyez.org/case_media/oral_argument_audio/13751\"}",
+      "encoding": "json",
+      "party": 0,
+      "dialog": 0,
+      "start": "2026-09-19T23:17:51.812250+00:00"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "wtf_transcription",
+      "dialog": 0,
+      "vendor": "oyez",
+      "body": "{\"transcript\": {\"text\": \"-- you may -- you may proceed, Mr. Acker. If the Court please, I was -- at the recess I was taking what I thought was the very extravagant claim of the Government as to their right to tax and I was countering that with the famous statement that the power to tax is not the power to confiscate, and several other things that are associated with that which I think this Court is familiar with and therefore I will not digress to go into that. The question of the penalties was not even argued. It was not even mentioned so far as the oral argument was concerned and in the briefs, I think it was given three or four lines and I was greatly amazed when the opinion was handed down that the Court spent an extravagant amount of time almost in discussing this subject. I suppose their reason for this was that while they had agreed with me in principle in unmistakable language that the power of the Government to tax was not as extravagant as they claimed it was not as great as they claimed, they gave no relief on that subject. And I thought a leap, or in a summersault that was greater than any leap since Brodie jumped off the Brooklyn bridge, but they did though to a great extent to eluciate a little-- elucidate the -- their reasons for being with the respondent in that action. Now on the affirmative side of my case as to how I would interpret the statute, I think immediately upon reading it after looking at the context of it and format of the statute and the way it is set up and it provides one penalty for not doing a thing and another penalty for not doing a thing, but we have the classic interpretation, the express mention of one thing is the exclusion of another. Now if there was ever a classic principle of interpretation for statutes or for anything for that matter, it is that great principle. In other words where one thing is expressly mentioned that is conclusive and not only do we need to go to that most apparent and evident principle of interpretation, but we can -- we can almost go to Mathematics and in using the word Mathematics, I would direct the Court's attention that that is a branch of philosophy. In other words, the whole includes all of the parts. So when I fail to do one thing, it already included all of the parts. Now it seems to me this is so evident and so apparent on logic that I stand amazed that anyone should be contending to the contrary. Now the Government's counsel had said something about the history of this case and he thought from the history of the case, they should be sustained. Well now the very fact that it was constantly changed during these intervening years, the 1943 and on itself indicates that there was a freedom out of trouble with this and when the Congress' got to 1954, our present Revenue Act, they eliminated it entirely which shows the type of public opinion that was operating at that instance. Now therefore, I want to resume and sort it somehow. I therefore think on the constructive side that the ordinary principles of interpretation would show that it should not be enlarged. I try to show that there was no ambiguity if you will read the statutes. Plainly and unmistakably, there isn't a single ambiguity in it, and all that there is, is an omission and you cannot supply an omission. It was simply something that was overlooked (Inaudible). Now I've learned a very, very long time ago, Your Honor, when you have said what you wanted to say, it is a most excellent time to sit down.\", \"language\": \"en\", \"duration\": 310.115, \"confidence\": 1.0}, \"segments\": [{\"id\": 0, \"start\": 0.0, \"end\": 11.674, \"text\": \"-- you may -- you may proceed, Mr. Acker.\", \"confidence\": 1.0, \"speaker\": 0}, {\"id\": 1, \"start\": 11.674, \"end\": 49.624, \"text\": \"If the Court please, I was -- at the recess I was taking what I thought was the very extravagant claim of the Government as to their right to tax and I was countering that with the famous statement that the power to tax is not the power to confiscate, and several other things that are associated with that which I think this Court is familiar with and therefore I will not digress to go into that.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 2, \"start\": 49.624, \"end\": 52.812, \"text\": \"The question of the penalties was not even argued.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 3, \"start\": 52.812, \"end\": 79.52, \"text\": \"It was not even mentioned so far as the oral argument was concerned and in the briefs, I think it was given three or four lines and I was greatly amazed when the opinion was handed down that the Court spent an extravagant amount of time almost in discussing this subject.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 4, \"start\": 79.52, \"end\": 98.387, \"text\": \"I suppose their reason for this was that while they had agreed with me in principle in unmistakable language that the power of the Government to tax was not as extravagant as they claimed it was not as great as they claimed, they gave no relief on that subject.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 5, \"start\": 98.387, \"end\": 124.298, \"text\": \"And I thought a leap, or in a summersault that was greater than any leap since Brodie jumped off the Brooklyn bridge, but they did though to a great extent to eluciate a little-- elucidate the -- their reasons for being with the respondent in that action.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 6, \"start\": 124.298, \"end\": 159.493, \"text\": \"Now on the affirmative side of my case as to how I would interpret the statute, I think immediately upon reading it after looking at the context of it and format of the statute and the way it is set up and it provides one penalty for not doing a thing and another penalty for not doing a thing, but we have the classic interpretation, the express mention of one thing is the exclusion of another.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 7, \"start\": 159.493, \"end\": 168.672, \"text\": \"Now if there was ever a classic principle of interpretation for statutes or for anything for that matter, it is that great principle.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 8, \"start\": 168.672, \"end\": 191.479, \"text\": \"In other words where one thing is expressly mentioned that is conclusive and not only do we need to go to that most apparent and evident principle of interpretation, but we can -- we can almost go to Mathematics and in using the word Mathematics, I would direct the Court's attention that that is a branch of philosophy.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 9, \"start\": 191.479, \"end\": 196.324, \"text\": \"In other words, the whole includes all of the parts.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 10, \"start\": 196.324, \"end\": 202.381, \"text\": \"So when I fail to do one thing, it already included all of the parts.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 11, \"start\": 202.381, \"end\": 212.062, \"text\": \"Now it seems to me this is so evident and so apparent on logic that I stand amazed that anyone should be contending to the contrary.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 12, \"start\": 212.062, \"end\": 220.838, \"text\": \"Now the Government's counsel had said something about the history of this case and he thought from the history of the case, they should be sustained.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 13, \"start\": 220.838, \"end\": 253.31, \"text\": \"Well now the very fact that it was constantly changed during these intervening years, the 1943 and on itself indicates that there was a freedom out of trouble with this and when the Congress' got to 1954, our present Revenue Act, they eliminated it entirely which shows the type of public opinion that was operating at that instance.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 14, \"start\": 253.31, \"end\": 262.817, \"text\": \"Now therefore, I want to resume and sort it somehow.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 15, \"start\": 262.817, \"end\": 273.533, \"text\": \"I therefore think on the constructive side that the ordinary principles of interpretation would show that it should not be enlarged.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 16, \"start\": 273.533, \"end\": 279.778, \"text\": \"I try to show that there was no ambiguity if you will read the statutes.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 17, \"start\": 279.778, \"end\": 292.035, \"text\": \"Plainly and unmistakably, there isn't a single ambiguity in it, and all that there is, is an omission and you cannot supply an omission.\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 18, \"start\": 292.035, \"end\": 296.748, \"text\": \"It was simply something that was overlooked (Inaudible).\", \"confidence\": 1.0, \"speaker\": 9}, {\"id\": 19, \"start\": 296.748, \"end\": 310.115, \"text\": \"Now I've learned a very, very long time ago, Your Honor, when you have said what you wanted to say, it is a most excellent time to sit down.\", \"confidence\": 1.0, \"speaker\": 9}], \"metadata\": {\"created_at\": \"2026-09-19T23:17:51.813188+00:00\", \"processed_at\": \"2026-09-19T23:17:51.813188+00:00\", \"provider\": \"oyez\", \"model\": \"court-transcript\", \"segment_count\": 20, \"speakers\": {\"0\": \"Earl Warren\", \"1\": \"Hugo L. Black\", \"2\": \"Felix Frankfurter\", \"3\": \"William O. Douglas\", \"4\": \"Tom C. Clark\", \"5\": \"John M. Harlan II\", \"6\": \"William J. Brennan, Jr.\", \"7\": \"Charles E. Whittaker\", \"8\": \"Potter Stewart\", \"9\": \"Fred N. Acker\"}}}",
+      "encoding": "json",
+      "product": "court-transcript"
+    }
+  ],
+  "created_at": "2026-09-19T23:17:51.812250+00:00",
+  "extensions": [
+    "role",
+    "meta",
+    "wtf_transcription",
+    "lawful_basis"
+  ],
+  "subject": "Commissioner of Internal Revenue v. Acker (13) - Oral Argument - October 19, 1959 (Part 2)",
+  "updated_at": "2026-09-19T23:17:51.813188+00:00"
+}
